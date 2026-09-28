@@ -1,0 +1,36 @@
+<header><div class="eyebrow">WORKFLOW</div><h1>Keep work moving.</h1><p>Create the task. Find the signal. Move it forward.</p></header>
+<main>
+  <section class="create-card" aria-labelledby="create-title">
+    <div><span class="section-number">01</span><h2 id="create-title">New work item</h2></div>
+    <form [formGroup]="createForm" (ngSubmit)="create()">
+      <label>Title <span>{{ createForm.controls.title.value.length }}/120</span><input formControlName="title" maxlength="120" placeholder="What needs doing?" /></label>
+      @if (createForm.controls.title.touched && createForm.controls.title.invalid) { <small class="validation">Enter a title of no more than 120 characters.</small> }
+      <label>Description <textarea formControlName="description" rows="3" placeholder="Add context (optional)"></textarea></label>
+      <button class="primary" type="submit" [disabled]="saving()">{{ saving() ? 'Creating…' : 'Create item' }}</button>
+    </form>
+  </section>
+
+  <section class="list-section" aria-labelledby="list-title">
+    <div class="list-heading"><div><span class="section-number">02</span><h2 id="list-title">Work queue</h2></div></div>
+    <div class="filters">
+      <label><span class="sr-only">Search titles</span><input [formControl]="search" placeholder="Search by title…" /></label>
+      <label><span class="sr-only">Filter by status</span><select [formControl]="status">@for (option of statuses; track option.value) { <option [value]="option.value">{{ option.label }}</option> }</select></label>
+    </div>
+    @if (error()) { <div class="state error" role="alert">{{ error() }} <button type="button" (click)="retry()">Retry</button></div> }
+    @if (loading()) { <div class="state"><span class="spinner"></span> Loading work items…</div> }
+    @if (result$ | async; as result) {
+      @if (!loading() && result.page?.items?.length === 0) { <div class="state empty"><strong>No work items found.</strong><span>Try another filter or create the first one.</span></div> }
+      @if (!loading() && result.page; as page) {
+        <div class="items">
+          @for (item of page.items; track item.id) {
+            <article><div class="item-main"><div class="meta"><span class="badge" [class]="'badge ' + item.status.toLowerCase()">{{ label(item.status) }}</span><time>{{ item.createdAt | date:'medium' }}</time></div><h3>{{ item.title }}</h3>@if (item.description) { <p>{{ item.description }}</p> }</div>
+              <label class="item-status"><span class="sr-only">Change status for {{ item.title }}</span><select [value]="item.status" (change)="changeStatus(item.id, item.status, $event)" [disabled]="item.status === 'Done'">@for (choice of statusChoices(item.status); track choice) { <option [value]="choice">{{ label(choice) }}</option> }</select></label>
+            </article>
+          }
+        </div>
+        @if (page.totalPages > 1) { <nav class="pagination" aria-label="Pagination"><button (click)="previous()" [disabled]="page.page === 1">← Previous</button><span>Page {{ page.page }} of {{ page.totalPages }} · {{ page.totalCount }} items</span><button (click)="next(page.totalPages)" [disabled]="page.page === page.totalPages">Next →</button></nav> }
+      }
+    }
+  </section>
+</main>
+<footer>WORK ITEMS · BUILT FOR MOMENTUM</footer>

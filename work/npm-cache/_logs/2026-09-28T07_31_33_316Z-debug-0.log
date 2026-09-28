@@ -1,0 +1,1620 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\.npmrc
+5 silly config load:file:C:\Users\EL10_gazy\.npmrc
+6 silly config load:file:C:\Users\EL10_gazy\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "..\\..\\work\\npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\work\npm-cache\_logs\2026-09-28T07_31_33_316Z-
+10 verbose logfile C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\work\npm-cache\_logs\2026-09-28T07_31_33_316Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest @angular/common@^20.3.0
+15 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon cache-miss
+16 http cache https://registry.npmjs.org/@angular%2fcommon 59ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon set size:3283225 disposed:false
+18 silly fetch manifest @angular/core@^20.3.0
+19 silly packumentCache full:https://registry.npmjs.org/@angular%2fcore cache-miss
+20 http cache https://registry.npmjs.org/@angular%2fcore 32ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/@angular%2fcore set size:3194893 disposed:false
+22 silly fetch manifest @angular/compiler@^20.3.0
+23 silly packumentCache full:https://registry.npmjs.org/@angular%2fcompiler cache-miss
+24 http cache https://registry.npmjs.org/@angular%2fcompiler 30ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/@angular%2fcompiler set size:2846129 disposed:false
+26 silly fetch manifest rxjs@~7.8.2
+27 silly packumentCache full:https://registry.npmjs.org/rxjs cache-miss
+28 http cache https://registry.npmjs.org/rxjs 24ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/rxjs set size:1028301 disposed:false
+30 silly fetch manifest zone.js@~0.15.1
+31 silly packumentCache full:https://registry.npmjs.org/zone.js cache-miss
+32 http cache https://registry.npmjs.org/zone.js 15ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/zone.js set size:381980 disposed:false
+34 silly fetch manifest @angular/build@^20.3.0
+35 silly packumentCache full:https://registry.npmjs.org/@angular%2fbuild cache-miss
+36 http cache https://registry.npmjs.org/@angular%2fbuild 20ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/@angular%2fbuild set size:1097719 disposed:false
+38 silly fetch manifest @angular/compiler-cli@^20.3.0
+39 silly packumentCache full:https://registry.npmjs.org/@angular%2fcompiler-cli cache-miss
+40 http cache https://registry.npmjs.org/@angular%2fcompiler-cli 32ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/@angular%2fcompiler-cli set size:3459735 disposed:false
+42 silly fetch manifest typescript@~5.9.2
+43 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+44 http cache https://registry.npmjs.org/typescript 112ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/typescript set size:15723265 disposed:false
+46 silly fetch manifest @angular/localize@^20.0.0
+47 silly packumentCache full:https://registry.npmjs.org/@angular%2flocalize cache-miss
+48 http cache https://registry.npmjs.org/@angular%2flocalize 32ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/@angular%2flocalize set size:2563839 disposed:false
+50 silly fetch manifest @angular/platform-browser@^20.3.0
+51 silly packumentCache full:https://registry.npmjs.org/@angular%2fplatform-browser cache-miss
+52 http cache https://registry.npmjs.org/@angular%2fplatform-browser 35ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/@angular%2fplatform-browser set size:3275161 disposed:false
+54 silly fetch manifest @angular/animations@^20.3.0
+55 silly packumentCache full:https://registry.npmjs.org/@angular%2fanimations cache-miss
+56 http cache https://registry.npmjs.org/@angular%2fanimations 31ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/@angular%2fanimations set size:2995487 disposed:false
+58 silly fetch manifest @angular/platform-server@^20.0.0
+59 silly packumentCache full:https://registry.npmjs.org/@angular%2fplatform-server cache-miss
+60 http cache https://registry.npmjs.org/@angular%2fplatform-server 35ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/@angular%2fplatform-server set size:3326925 disposed:false
+62 silly fetch manifest @angular/service-worker@^20.0.0
+63 silly packumentCache full:https://registry.npmjs.org/@angular%2fservice-worker cache-miss
+64 http cache https://registry.npmjs.org/@angular%2fservice-worker 31ms (cache hit)
+65 silly packumentCache full:https://registry.npmjs.org/@angular%2fservice-worker set size:3074476 disposed:false
+66 silly fetch manifest @angular/ssr@^20.3.37
+67 silly packumentCache full:https://registry.npmjs.org/@angular%2fssr cache-miss
+68 http cache https://registry.npmjs.org/@angular%2fssr 17ms (cache hit)
+69 silly packumentCache full:https://registry.npmjs.org/@angular%2fssr set size:852018 disposed:false
+70 silly fetch manifest @angular/router@^20.0.0
+71 silly packumentCache full:https://registry.npmjs.org/@angular%2frouter cache-miss
+72 http cache https://registry.npmjs.org/@angular%2frouter 29ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/@angular%2frouter set size:3156749 disposed:false
+74 silly fetch manifest karma@~6.4.4
+75 silly packumentCache full:https://registry.npmjs.org/karma cache-miss
+76 http cache https://registry.npmjs.org/karma 32ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/karma set size:3361521 disposed:false
+78 silly fetch manifest less@^4.2.0
+79 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+80 http cache https://registry.npmjs.org/less 16ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/less set size:561097 disposed:false
+82 silly fetch manifest ng-packagr@^20.0.0
+83 silly packumentCache full:https://registry.npmjs.org/ng-packagr cache-miss
+84 http cache https://registry.npmjs.org/ng-packagr 19ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/ng-packagr set size:1179895 disposed:false
+86 silly fetch manifest tailwindcss@^2.0.0 || ^3.0.0 || ^4.0.0
+87 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+88 http cache https://registry.npmjs.org/tailwindcss 81ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10893093 disposed:false
+90 silly fetch manifest tslib@^2.8.1
+91 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+92 http cache https://registry.npmjs.org/tslib 12ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/tslib set size:108843 disposed:false
+94 silly fetch manifest postcss@^8.4.0
+95 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+96 http cache https://registry.npmjs.org/postcss 17ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/postcss set size:766699 disposed:false
+98 silly fetch manifest vitest@^3.1.1
+99 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+100 http cache https://registry.npmjs.org/vitest 26ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/vitest set size:2269297 disposed:false
+102 silly fetch manifest @edge-runtime/vm@*
+103 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm cache-miss
+104 http cache https://registry.npmjs.org/@edge-runtime%2fvm 17ms (cache hit)
+105 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm set size:269934 disposed:false
+106 silly fetch manifest @types/debug@^4.1.12
+107 silly packumentCache full:https://registry.npmjs.org/@types%2fdebug cache-miss
+108 http cache https://registry.npmjs.org/@types%2fdebug 19ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/@types%2fdebug set size:55727 disposed:false
+110 silly fetch manifest @types/node@^18.0.0 || ^20.0.0 || >=22.0.0
+111 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+112 http cache https://registry.npmjs.org/@types%2fnode 50ms (cache hit)
+113 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11157642 disposed:false
+114 silly fetch manifest @vitest/browser@3.2.7
+115 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser cache-miss
+116 http cache https://registry.npmjs.org/@vitest%2fbrowser 15ms (cache hit)
+117 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser set size:816077 disposed:false
+118 silly fetch manifest playwright@*
+119 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+120 http cache https://registry.npmjs.org/playwright 112ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/playwright set size:16798640 disposed:false
+122 silly fetch manifest webdriverio@^7.0.0 || ^8.0.0 || ^9.0.0
+123 silly packumentCache full:https://registry.npmjs.org/webdriverio cache-miss
+124 http cache https://registry.npmjs.org/webdriverio 34ms (cache hit)
+125 silly packumentCache full:https://registry.npmjs.org/webdriverio set size:3204730 disposed:false
+126 silly fetch manifest puppeteer-core@>=22.x <=24.x
+127 silly packumentCache full:https://registry.npmjs.org/puppeteer-core cache-miss
+128 http cache https://registry.npmjs.org/puppeteer-core 21ms (cache hit)
+129 silly packumentCache full:https://registry.npmjs.org/puppeteer-core set size:1589664 disposed:false
+130 silly fetch manifest @vitest/ui@3.2.7
+131 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui cache-miss
+132 http cache https://registry.npmjs.org/@vitest%2fui 33ms (cache hit)
+133 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui set size:1302581 disposed:false
+134 silly fetch manifest happy-dom@*
+135 silly packumentCache full:https://registry.npmjs.org/happy-dom cache-miss
+136 http cache https://registry.npmjs.org/happy-dom 26ms (cache hit)
+137 silly packumentCache full:https://registry.npmjs.org/happy-dom set size:2551937 disposed:false
+138 silly fetch manifest jsdom@*
+139 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+140 http cache https://registry.npmjs.org/jsdom 18ms (cache hit)
+141 silly packumentCache full:https://registry.npmjs.org/jsdom set size:1083886 disposed:false
+142 silly fetch manifest canvas@^3.0.0
+143 silly packumentCache full:https://registry.npmjs.org/canvas cache-miss
+144 http cache https://registry.npmjs.org/canvas 13ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/canvas set size:353371 disposed:false
+146 silly fetch manifest @angular/cli@^20.3.0
+147 silly packumentCache full:https://registry.npmjs.org/@angular%2fcli cache-miss
+148 http cache https://registry.npmjs.org/@angular%2fcli 32ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/@angular%2fcli set size:3299849 disposed:false
+150 silly placeDep ROOT @angular/build@20.3.37 REPLACE for: work-items-ui@1.0.0 want: ^20.3.0
+151 silly placeDep ROOT typescript@5.9.3 OK for: @angular/build@20.3.37 want: >=5.8 <6.0
+152 silly placeDep ROOT @angular/cli@20.3.37 REPLACE for: work-items-ui@1.0.0 want: ^20.3.0
+153 silly placeDep ROOT @angular/common@20.3.32 REPLACE for: work-items-ui@1.0.0 want: ^20.3.0
+154 silly placeDep ROOT rxjs@7.8.2 OK for: @angular/common@20.3.32 want: ^6.5.3 || ^7.4.0
+155 silly placeDep ROOT @angular/core@20.3.32 OK for: @angular/common@20.3.32 want: 20.3.32
+156 silly placeDep ROOT zone.js@0.15.1 REPLACE for: @angular/core@20.3.32 want: ~0.15.0
+157 silly placeDep ROOT karma@6.4.4 OK for: work-items-ui@1.0.0 want: ~6.4.4
+158 silly fetch manifest sass@1.90.0
+159 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+160 silly fetch manifest @babel/core@7.29.7
+161 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+162 silly fetch manifest lmdb@3.4.2
+163 silly packumentCache full:https://registry.npmjs.org/lmdb cache-miss
+164 silly fetch manifest zod@4.1.13
+165 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+166 silly fetch manifest @schematics/angular@20.3.37
+167 silly packumentCache full:https://registry.npmjs.org/@schematics%2fangular cache-miss
+168 silly fetch manifest @modelcontextprotocol/sdk@1.30.0
+169 silly packumentCache full:https://registry.npmjs.org/@modelcontextprotocol%2fsdk cache-miss
+170 silly fetch manifest yargs@^16.1.1
+171 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+172 http cache https://registry.npmjs.org/zod 39ms (cache hit)
+173 silly packumentCache full:https://registry.npmjs.org/zod set size:4166672 disposed:false
+174 silly fetch manifest lodash@^4.17.21
+175 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+176 http cache https://registry.npmjs.org/sass 95ms (cache hit)
+177 silly packumentCache full:https://registry.npmjs.org/sass set size:754556 disposed:false
+178 silly fetch manifest chokidar@^3.5.1
+179 silly packumentCache full:https://registry.npmjs.org/chokidar cache-miss
+180 http cache https://registry.npmjs.org/@babel%2fcore 113ms (cache hit)
+181 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:797193 disposed:false
+182 silly fetch manifest source-map@^0.6.1
+183 silly packumentCache full:https://registry.npmjs.org/source-map cache-miss
+184 http cache https://registry.npmjs.org/lmdb 131ms (cache hit)
+185 silly packumentCache full:https://registry.npmjs.org/lmdb set size:981952 disposed:false
+186 silly fetch manifest body-parser@^1.19.0
+187 silly packumentCache full:https://registry.npmjs.org/body-parser cache-miss
+188 http cache https://registry.npmjs.org/@schematics%2fangular 193ms (cache hit)
+189 silly packumentCache full:https://registry.npmjs.org/@schematics%2fangular set size:2498232 disposed:false
+190 http cache https://registry.npmjs.org/yargs 262ms (cache hit)
+191 silly packumentCache full:https://registry.npmjs.org/yargs set size:763370 disposed:false
+192 http cache https://registry.npmjs.org/@modelcontextprotocol%2fsdk 285ms (cache hit)
+193 silly packumentCache full:https://registry.npmjs.org/@modelcontextprotocol%2fsdk set size:308813 disposed:false
+194 http cache https://registry.npmjs.org/source-map 185ms (cache hit)
+195 silly packumentCache full:https://registry.npmjs.org/source-map set size:231637 disposed:false
+196 http cache https://registry.npmjs.org/lodash 230ms (cache hit)
+197 silly packumentCache full:https://registry.npmjs.org/lodash set size:247678 disposed:false
+198 http cache https://registry.npmjs.org/body-parser 178ms (cache hit)
+199 silly packumentCache full:https://registry.npmjs.org/body-parser set size:207391 disposed:false
+200 http cache https://registry.npmjs.org/chokidar 226ms (cache hit)
+201 silly packumentCache full:https://registry.npmjs.org/chokidar set size:255902 disposed:false
+202 silly placeDep ROOT @babel/core@7.29.7 OK for: @angular/build@20.3.37 want: 7.29.7
+203 silly placeDep ROOT lmdb@3.4.2 OK for: @angular/build@20.3.37 want: 3.4.2
+204 silly placeDep ROOT sass@1.90.0 OK for: @angular/build@20.3.37 want: 1.90.0
+205 silly fetch manifest semver@^6.3.1
+206 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+207 silly fetch manifest @babel/types@^7.29.7
+208 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes cache-miss
+209 silly fetch manifest @babel/helpers@^7.29.7
+210 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelpers cache-miss
+211 silly fetch manifest convert-source-map@^2.0.0
+212 silly packumentCache full:https://registry.npmjs.org/convert-source-map cache-miss
+213 silly fetch manifest @lmdb/lmdb-linux-arm@3.4.2
+214 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-linux-arm cache-miss
+215 silly fetch manifest @lmdb/lmdb-linux-x64@3.4.2
+216 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-linux-x64 cache-miss
+217 silly fetch manifest @lmdb/lmdb-darwin-x64@3.4.2
+218 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-darwin-x64 cache-miss
+219 http cache https://registry.npmjs.org/@babel%2ftypes 29ms (cache hit)
+220 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes set size:507562 disposed:false
+221 silly fetch manifest @lmdb/lmdb-linux-arm64@3.4.2
+222 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-linux-arm64 cache-miss
+223 http cache https://registry.npmjs.org/@lmdb%2flmdb-linux-x64 37ms (cache hit)
+224 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-linux-x64 set size:198348 disposed:false
+225 silly fetch manifest @lmdb/lmdb-win32-arm64@3.4.2
+226 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-win32-arm64 cache-miss
+227 http cache https://registry.npmjs.org/convert-source-map 43ms (cache hit)
+228 silly packumentCache full:https://registry.npmjs.org/convert-source-map set size:66997 disposed:false
+229 silly fetch manifest @lmdb/lmdb-darwin-arm64@3.4.2
+230 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-darwin-arm64 cache-miss
+231 http cache https://registry.npmjs.org/semver 49ms (cache hit)
+232 silly packumentCache full:https://registry.npmjs.org/semver set size:246128 disposed:false
+233 http cache https://registry.npmjs.org/@lmdb%2flmdb-linux-arm 54ms (cache hit)
+234 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-linux-arm set size:196782 disposed:false
+235 http cache https://registry.npmjs.org/@babel%2fhelpers 61ms (cache hit)
+236 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelpers set size:400815 disposed:false
+237 http cache https://registry.npmjs.org/@lmdb%2flmdb-darwin-x64 63ms (cache hit)
+238 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-darwin-x64 set size:196156 disposed:false
+239 http cache https://registry.npmjs.org/@lmdb%2flmdb-win32-arm64 34ms (cache hit)
+240 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-win32-arm64 set size:17358 disposed:false
+241 http cache https://registry.npmjs.org/@lmdb%2flmdb-linux-arm64 42ms (cache hit)
+242 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-linux-arm64 set size:198530 disposed:false
+243 http cache https://registry.npmjs.org/@lmdb%2flmdb-darwin-arm64 35ms (cache hit)
+244 silly packumentCache full:https://registry.npmjs.org/@lmdb%2flmdb-darwin-arm64 set size:197789 disposed:false
+245 silly fetch manifest @cfworker/json-schema@^4.1.1
+246 silly packumentCache full:https://registry.npmjs.org/@cfworker%2fjson-schema cache-miss
+247 http cache https://registry.npmjs.org/@cfworker%2fjson-schema 14ms (cache hit)
+248 silly packumentCache full:https://registry.npmjs.org/@cfworker%2fjson-schema set size:144207 disposed:false
+249 silly placeDep ROOT @modelcontextprotocol/sdk@1.30.0 OK for: @angular/cli@20.3.37 want: 1.30.0
+250 silly placeDep ROOT @schematics/angular@20.3.37 OK for: @angular/cli@20.3.37 want: 20.3.37
+251 silly placeDep ROOT zod@4.1.13 OK for: @angular/cli@20.3.37 want: 4.1.13
+252 silly fetch manifest ajv@^8.17.1
+253 silly packumentCache full:https://registry.npmjs.org/ajv cache-miss
+254 silly fetch manifest zod@^3.25 || ^4.0
+255 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+256 silly fetch manifest hono@^4.11.4
+257 silly packumentCache full:https://registry.npmjs.org/hono cache-miss
+258 http cache https://registry.npmjs.org/ajv 10ms (cache hit)
+259 silly packumentCache full:https://registry.npmjs.org/ajv set size:1142658 disposed:false
+260 http cache https://registry.npmjs.org/zod 22ms (cache hit)
+261 silly packumentCache full:https://registry.npmjs.org/zod set size:4166672 disposed:false
+262 http cache https://registry.npmjs.org/hono 54ms (cache hit)
+263 silly packumentCache full:https://registry.npmjs.org/hono set size:6209629 disposed:false
+264 silly placeDep node_modules/@babel/core @babel/helpers@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+265 silly placeDep node_modules/@babel/core @babel/types@7.29.8 OK for: @babel/core@7.29.7 want: ^7.29.7
+266 silly placeDep node_modules/@babel/core convert-source-map@2.0.0 OK for: @babel/core@7.29.7 want: ^2.0.0
+267 silly placeDep node_modules/@babel/core semver@6.3.1 OK for: @babel/core@7.29.7 want: ^6.3.1
+268 silly placeDep node_modules/@modelcontextprotocol/sdk ajv@8.20.0 OK for: @modelcontextprotocol/sdk@1.30.0 want: ^8.17.1
+269 silly placeDep node_modules/@modelcontextprotocol/sdk hono@4.13.9 OK for: @modelcontextprotocol/sdk@1.30.0 want: ^4.11.4
+270 silly placeDep node_modules/karma body-parser@1.20.8 OK for: karma@6.4.4 want: ^1.19.0
+271 silly placeDep node_modules/karma chokidar@3.6.0 OK for: karma@6.4.4 want: ^3.5.1
+272 silly placeDep node_modules/karma lodash@4.18.1 OK for: karma@6.4.4 want: ^4.17.21
+273 silly placeDep node_modules/karma source-map@0.6.1 OK for: karma@6.4.4 want: ^0.6.1
+274 silly placeDep node_modules/karma yargs@16.2.2 OK for: karma@6.4.4 want: ^16.1.1
+275 silly fetch manifest debug@2.6.9
+276 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+277 silly fetch manifest type-is@~1.6.18
+278 silly packumentCache full:https://registry.npmjs.org/type-is cache-miss
+279 silly fetch manifest raw-body@~2.5.3
+280 silly packumentCache full:https://registry.npmjs.org/raw-body cache-miss
+281 silly fetch manifest iconv-lite@~0.4.24
+282 silly packumentCache full:https://registry.npmjs.org/iconv-lite cache-miss
+283 silly fetch manifest readdirp@~3.6.0
+284 silly packumentCache full:https://registry.npmjs.org/readdirp cache-miss
+285 silly fetch manifest fsevents@~2.3.2
+286 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+287 silly fetch manifest cliui@^7.0.2
+288 silly packumentCache full:https://registry.npmjs.org/cliui cache-miss
+289 http cache https://registry.npmjs.org/type-is 12ms (cache hit)
+290 silly packumentCache full:https://registry.npmjs.org/type-is set size:90391 disposed:false
+291 silly fetch manifest string-width@^4.2.0
+292 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+293 http cache https://registry.npmjs.org/iconv-lite 14ms (cache hit)
+294 silly packumentCache full:https://registry.npmjs.org/iconv-lite set size:126462 disposed:false
+295 silly fetch manifest yargs-parser@^20.2.2
+296 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+297 http cache https://registry.npmjs.org/debug 19ms (cache hit)
+298 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+299 http cache https://registry.npmjs.org/raw-body 21ms (cache hit)
+300 silly packumentCache full:https://registry.npmjs.org/raw-body set size:120042 disposed:false
+301 http cache https://registry.npmjs.org/fsevents 22ms (cache hit)
+302 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+303 http cache https://registry.npmjs.org/cliui 24ms (cache hit)
+304 silly packumentCache full:https://registry.npmjs.org/cliui set size:69089 disposed:false
+305 http cache https://registry.npmjs.org/readdirp 27ms (cache hit)
+306 silly packumentCache full:https://registry.npmjs.org/readdirp set size:110119 disposed:false
+307 http cache https://registry.npmjs.org/string-width 19ms (cache hit)
+308 silly packumentCache full:https://registry.npmjs.org/string-width set size:74702 disposed:false
+309 http cache https://registry.npmjs.org/yargs-parser 18ms (cache hit)
+310 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:238681 disposed:false
+311 silly fetch manifest which@^1.2.1
+312 silly packumentCache full:https://registry.npmjs.org/which cache-miss
+313 http cache https://registry.npmjs.org/which 23ms (cache hit)
+314 silly packumentCache full:https://registry.npmjs.org/which set size:70147 disposed:false
+315 silly placeDep node_modules/karma-chrome-launcher which@1.3.1 REPLACE for: karma-chrome-launcher@3.2.0 want: ^1.2.1
+316 silly fetch manifest istanbul-lib-instrument@^5.1.0
+317 silly packumentCache full:https://registry.npmjs.org/istanbul-lib-instrument cache-miss
+318 http cache https://registry.npmjs.org/istanbul-lib-instrument 59ms (cache hit)
+319 silly packumentCache full:https://registry.npmjs.org/istanbul-lib-instrument set size:219175 disposed:false
+320 silly placeDep node_modules/karma-coverage istanbul-lib-instrument@5.2.1 REPLACE for: karma-coverage@2.2.1 want: ^5.1.0
+321 silly fetch manifest semver@^6.3.0
+322 silly packumentCache full:https://registry.npmjs.org/semver cache-hit
+323 silly fetch manifest jasmine-core@^4.1.0
+324 silly packumentCache full:https://registry.npmjs.org/jasmine-core cache-miss
+325 http cache https://registry.npmjs.org/jasmine-core 9ms (cache hit)
+326 silly packumentCache full:https://registry.npmjs.org/jasmine-core set size:245533 disposed:false
+327 silly placeDep node_modules/karma-jasmine jasmine-core@4.6.1 REPLACE for: karma-jasmine@5.1.0 want: ^4.1.0
+328 silly placeDep ROOT @lmdb/lmdb-darwin-arm64@3.4.2 OK for: lmdb@3.4.2 want: 3.4.2
+329 silly placeDep ROOT @lmdb/lmdb-darwin-x64@3.4.2 OK for: lmdb@3.4.2 want: 3.4.2
+330 silly placeDep ROOT @lmdb/lmdb-linux-arm@3.4.2 OK for: lmdb@3.4.2 want: 3.4.2
+331 silly placeDep ROOT @lmdb/lmdb-linux-arm64@3.4.2 OK for: lmdb@3.4.2 want: 3.4.2
+332 silly placeDep ROOT @lmdb/lmdb-linux-x64@3.4.2 OK for: lmdb@3.4.2 want: 3.4.2
+333 silly placeDep ROOT @lmdb/lmdb-win32-arm64@3.4.2 OK for: lmdb@3.4.2 want: 3.4.2
+334 silly placeDep node_modules/karma-coverage semver@6.3.1 OK for: istanbul-lib-instrument@5.2.1 want: ^6.3.0
+335 silly placeDep node_modules/karma debug@2.6.9 OK for: body-parser@1.20.8 want: 2.6.9
+336 silly placeDep node_modules/karma iconv-lite@0.4.24 OK for: body-parser@1.20.8 want: ~0.4.24
+337 silly placeDep node_modules/karma raw-body@2.5.3 OK for: body-parser@1.20.8 want: ~2.5.3
+338 silly placeDep node_modules/karma type-is@1.6.18 OK for: body-parser@1.20.8 want: ~1.6.18
+339 silly fetch manifest ms@2.0.0
+340 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+341 silly fetch manifest mime-types@~2.1.24
+342 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+343 silly fetch manifest media-typer@0.3.0
+344 silly packumentCache full:https://registry.npmjs.org/media-typer cache-miss
+345 http cache https://registry.npmjs.org/ms 7ms (cache hit)
+346 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+347 http cache https://registry.npmjs.org/mime-types 9ms (cache hit)
+348 silly packumentCache full:https://registry.npmjs.org/mime-types set size:139110 disposed:false
+349 http cache https://registry.npmjs.org/media-typer 12ms (cache hit)
+350 silly packumentCache full:https://registry.npmjs.org/media-typer set size:22074 disposed:false
+351 silly placeDep ROOT fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+352 silly placeDep node_modules/karma readdirp@3.6.0 OK for: chokidar@3.6.0 want: ~3.6.0
+353 silly fetch manifest picomatch@^2.2.1
+354 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+355 http cache https://registry.npmjs.org/picomatch 7ms (cache hit)
+356 silly packumentCache full:https://registry.npmjs.org/picomatch set size:134451 disposed:false
+357 silly placeDep node_modules/karma ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+358 silly placeDep node_modules/karma picomatch@2.3.2 OK for: readdirp@3.6.0 want: ^2.2.1
+359 silly placeDep node_modules/karma media-typer@0.3.0 OK for: type-is@1.6.18 want: 0.3.0
+360 silly placeDep node_modules/karma mime-types@2.1.35 OK for: type-is@1.6.18 want: ~2.1.24
+361 silly fetch manifest mime-db@1.52.0
+362 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+363 http cache https://registry.npmjs.org/mime-db 6ms (cache hit)
+364 silly packumentCache full:https://registry.npmjs.org/mime-db set size:164953 disposed:false
+365 silly placeDep node_modules/karma mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+366 silly placeDep node_modules/karma cliui@7.0.4 OK for: yargs@16.2.2 want: ^7.0.2
+367 silly placeDep node_modules/karma string-width@4.2.3 OK for: yargs@16.2.2 want: ^4.2.0
+368 silly placeDep node_modules/karma yargs-parser@20.2.9 OK for: yargs@16.2.2 want: ^20.2.2
+369 silly fetch manifest wrap-ansi@^7.0.0
+370 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+371 silly fetch manifest strip-ansi@^6.0.0
+372 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+373 silly fetch manifest strip-ansi@^6.0.1
+374 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+375 silly fetch manifest emoji-regex@^8.0.0
+376 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+377 silly fetch manifest is-fullwidth-code-point@^3.0.0
+378 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+379 http cache https://registry.npmjs.org/strip-ansi 9ms (cache hit)
+380 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:44998 disposed:false
+381 http cache https://registry.npmjs.org/wrap-ansi 10ms (cache hit)
+382 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:59620 disposed:false
+383 http cache https://registry.npmjs.org/emoji-regex 11ms (cache hit)
+384 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:91540 disposed:false
+385 http cache https://registry.npmjs.org/strip-ansi 14ms (cache hit)
+386 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:44998 disposed:false
+387 silly packumentCache full:https://registry.npmjs.org/strip-ansi dispose
+388 http cache https://registry.npmjs.org/is-fullwidth-code-point 14ms (cache hit)
+389 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:14578 disposed:false
+390 silly placeDep node_modules/karma strip-ansi@6.0.1 OK for: cliui@7.0.4 want: ^6.0.0
+391 silly placeDep node_modules/karma wrap-ansi@7.0.0 OK for: cliui@7.0.4 want: ^7.0.0
+392 silly fetch manifest ansi-regex@^5.0.1
+393 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+394 silly fetch manifest ansi-styles@^4.0.0
+395 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+396 http cache https://registry.npmjs.org/ansi-styles 6ms (cache hit)
+397 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:71772 disposed:false
+398 http cache https://registry.npmjs.org/ansi-regex 7ms (cache hit)
+399 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:50305 disposed:false
+400 silly placeDep node_modules/karma emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+401 silly placeDep node_modules/karma is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+402 silly placeDep node_modules/karma ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+403 silly placeDep node_modules/karma ansi-styles@4.3.0 OK for: wrap-ansi@7.0.0 want: ^4.0.0
+404 silly reify mark retired [
+404 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma'
+404 silly reify ]
+405 silly reify mark retired [
+405 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\lmdb'
+405 silly reify ]
+406 silly reify mark retired [
+406 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\lodash'
+406 silly reify ]
+407 silly reify mark retired [
+407 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\rxjs'
+407 silly reify ]
+408 silly reify mark retired [
+408 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\sass'
+408 silly reify ]
+409 silly reify mark retired [
+409 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\typescript'
+409 silly reify ]
+410 silly reify mark retired [
+410 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\zod'
+410 silly reify ]
+411 silly reify mark retired [
+411 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\zone.js'
+411 silly reify ]
+412 silly reify mark retired [
+412 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\build'
+412 silly reify ]
+413 silly reify mark retired [
+413 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\cli'
+413 silly reify ]
+414 silly reify mark retired [
+414 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\common'
+414 silly reify ]
+415 silly reify mark retired [
+415 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\core'
+415 silly reify ]
+416 silly reify mark retired [
+416 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\core'
+416 silly reify ]
+417 silly reify mark retired [
+417 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\helpers'
+417 silly reify ]
+418 silly reify mark retired [
+418 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@modelcontextprotocol\\sdk'
+418 silly reify ]
+419 silly reify mark retired [
+419 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@schematics\\angular'
+419 silly reify ]
+420 silly reify mark retired [
+420 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\baseline-browser-mapping',
+420 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\baseline-browser-mapping',
+420 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+420 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+420 silly reify ]
+421 silly reify mark retired [
+421 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\browserslist',
+421 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\browserslist',
+421 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\browserslist.cmd',
+421 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\browserslist.ps1'
+421 silly reify ]
+422 silly reify mark retired [
+422 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\brace-expansion'
+422 silly reify ]
+423 silly reify mark retired [
+423 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\balanced-match'
+423 silly reify ]
+424 silly reify mark retired [
+424 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\minimatch'
+424 silly reify ]
+425 silly reify mark retired [
+425 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\esbuild',
+425 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\esbuild',
+425 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\esbuild.cmd',
+425 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\esbuild.ps1'
+425 silly reify ]
+426 silly reify mark retired [
+426 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\ignore-walk\\node_modules\\balanced-match'
+426 silly reify ]
+427 silly reify mark retired [
+427 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\jsesc',
+427 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\jsesc',
+427 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\jsesc.cmd',
+427 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\jsesc.ps1'
+427 silly reify ]
+428 silly reify mark retired [
+428 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\json5',
+428 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\json5',
+428 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\json5.cmd',
+428 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\json5.ps1'
+428 silly reify ]
+429 silly reify mark retired [
+429 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-coverage\\node_modules\\istanbul-lib-instrument'
+429 silly reify ]
+430 silly reify mark retired [
+430 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-coverage\\node_modules\\semver'
+430 silly reify ]
+431 silly reify mark retired [
+431 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-chrome-launcher\\node_modules\\which'
+431 silly reify ]
+432 silly reify mark retired [
+432 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-jasmine\\node_modules\\jasmine-core'
+432 silly reify ]
+433 silly reify mark retired [
+433 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\mime',
+433 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mime',
+433 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mime.cmd',
+433 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mime.ps1'
+433 silly reify ]
+434 silly reify mark retired [
+434 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\mkdirp',
+434 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mkdirp',
+434 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mkdirp.cmd',
+434 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mkdirp.ps1'
+434 silly reify ]
+435 silly reify mark retired [
+435 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\msgpackr-extract',
+435 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\download-msgpackr-prebuilds',
+435 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\download-msgpackr-prebuilds.cmd',
+435 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\download-msgpackr-prebuilds.ps1'
+435 silly reify ]
+436 silly reify mark retired [
+436 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\nanoid',
+436 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nanoid',
+436 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nanoid.cmd',
+436 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nanoid.ps1'
+436 silly reify ]
+437 silly reify mark retired [
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\node-gyp-build-optional-packages',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages.cmd',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages.ps1',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-optional',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-optional.cmd',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-optional.ps1',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-test',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-test.cmd',
+437 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-test.ps1'
+437 silly reify ]
+438 silly reify mark retired [
+438 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\node-gyp',
+438 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp',
+438 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp.cmd',
+438 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp.ps1'
+438 silly reify ]
+439 silly reify mark retired [
+439 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\nopt',
+439 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nopt',
+439 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nopt.cmd',
+439 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nopt.ps1'
+439 silly reify ]
+440 silly reify mark retired [
+440 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\pacote',
+440 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\pacote',
+440 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\pacote.cmd',
+440 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\pacote.ps1'
+440 silly reify ]
+441 silly reify mark retired [
+441 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\path-scurry'
+441 silly reify ]
+442 silly reify mark retired [
+442 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\resolve',
+442 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\resolve',
+442 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\resolve.cmd',
+442 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\resolve.ps1'
+442 silly reify ]
+443 silly reify mark retired [
+443 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\rimraf',
+443 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rimraf',
+443 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rimraf.cmd',
+443 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rimraf.ps1'
+443 silly reify ]
+444 silly reify mark retired [
+444 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\rollup',
+444 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rollup',
+444 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rollup.cmd',
+444 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rollup.ps1'
+444 silly reify ]
+445 silly reify mark retired [
+445 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\semver',
+445 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\semver',
+445 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\semver.cmd',
+445 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\semver.ps1'
+445 silly reify ]
+446 silly reify mark retired [
+446 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\ua-parser-js',
+446 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ua-parser-js',
+446 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ua-parser-js.cmd',
+446 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ua-parser-js.ps1'
+446 silly reify ]
+447 silly reify mark retired [
+447 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\update-browserslist-db',
+447 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\update-browserslist-db',
+447 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\update-browserslist-db.cmd',
+447 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\update-browserslist-db.ps1'
+447 silly reify ]
+448 silly reify mark retired [
+448 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\ansi-regex'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\is-fullwidth-code-point'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\emoji-regex'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\vite',
+451 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\vite',
+451 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\vite.cmd',
+451 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\vite.ps1'
+451 silly reify ]
+452 silly reify mark retired [
+452 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\which',
+452 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-which',
+452 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-which.cmd',
+452 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-which.ps1'
+452 silly reify ]
+453 silly reify mark retired [
+453 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\compiler-cli',
+453 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ngc',
+453 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ngc.cmd',
+453 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ngc.ps1',
+453 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ng-xi18n',
+453 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ng-xi18n.cmd',
+453 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ng-xi18n.ps1'
+453 silly reify ]
+454 silly reify mark retired [
+454 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\parser',
+454 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\parser',
+454 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\parser.cmd',
+454 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\parser.ps1'
+454 silly reify ]
+455 silly reify mark retired [
+455 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\which',
+455 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\node-which',
+455 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\node-which.cmd',
+455 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\node-which.ps1'
+455 silly reify ]
+456 silly reify mark retired [
+456 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\installed-package-contents',
+456 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\installed-package-contents',
+456 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\installed-package-contents.cmd',
+456 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\installed-package-contents.ps1'
+456 silly reify ]
+457 silly reify mark retired [
+457 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\minimatch'
+457 silly reify ]
+458 silly reify mark retired [
+458 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\brace-expansion'
+458 silly reify ]
+459 silly reify mark retired [
+459 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\balanced-match'
+459 silly reify ]
+460 silly reify mark retired [
+460 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\which',
+460 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\node-which',
+460 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\node-which.cmd',
+460 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\node-which.ps1'
+460 silly reify ]
+461 silly reify moves {
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.karma-rwPF8LHV',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\lmdb': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.lmdb-vijZcV8j',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\lodash': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.lodash-f9TTYLTz',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\rxjs': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.rxjs-G3ITgo5K',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\sass': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.sass-eOx5Lk1k',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\typescript': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.typescript-THJhgTqh',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\zod': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.zod-XtXbNUqk',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\zone.js': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.zone.js-obZ3rjJc',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\build': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\.build-6EufaQAI',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\cli': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\.cli-80PHh640',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\common': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\.common-WZqKv3Bw',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\core': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\.core-zN4Vt9wY',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\core': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\.core-vS283FJz',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\helpers': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\.helpers-C5x6gmVW',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@modelcontextprotocol\\sdk': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@modelcontextprotocol\\.sdk-BJ1CcP6W',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@schematics\\angular': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@schematics\\.angular-3P6RZyiD',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\baseline-browser-mapping': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.baseline-browser-mapping-kTtDuwAY',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.baseline-browser-mapping-O6bx4fg1',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.baseline-browser-mapping.cmd-B4QZ5nNQ',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.baseline-browser-mapping.ps1-MmqDcvVq',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\browserslist': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.browserslist-wNqUM7up',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\browserslist': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.browserslist-HFKOoBZ2',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.browserslist.cmd-vTsbC0W8',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.browserslist.ps1-TiNGB4SO',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\brace-expansion': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\.brace-expansion-JWRm59sZ',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\balanced-match': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\.balanced-match-TxS0uzGp',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\minimatch': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\cacache\\node_modules\\.minimatch-8iGbLoc7',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\esbuild': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.esbuild-aGCyhKxG',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\esbuild': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.esbuild-GAVS1d2o',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\esbuild.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.esbuild.cmd-jc5tg3FD',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\esbuild.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.esbuild.ps1-6bxHgodz',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\ignore-walk\\node_modules\\balanced-match': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\ignore-walk\\node_modules\\.balanced-match-buiHjRBq',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\jsesc': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.jsesc-nQX3AaZX',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\jsesc': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.jsesc-3yFYLJTD',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\jsesc.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.jsesc.cmd-LWf9LrRa',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\jsesc.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.jsesc.ps1-RgdoXmQI',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\json5': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.json5-CqqwhM5D',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\json5': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.json5-aBEVYEZK',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.json5.cmd-hppRx4ek',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.json5.ps1-e4z6eNmC',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-coverage\\node_modules\\istanbul-lib-instrument': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-coverage\\node_modules\\.istanbul-lib-instrument-kV5oknqj',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-coverage\\node_modules\\semver': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-coverage\\node_modules\\.semver-juPF9qWE',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-chrome-launcher\\node_modules\\which': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-chrome-launcher\\node_modules\\.which-5zwQk7FK',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-jasmine\\node_modules\\jasmine-core': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-jasmine\\node_modules\\.jasmine-core-IUMyDl79',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\mime': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.mime-bnFyC4zE',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mime': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.mime-nLC0jQxL',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mime.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.mime.cmd-5IcIoaNj',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mime.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.mime.ps1-LBtOVHae',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\mkdirp': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.mkdirp-CJbwiGZZ',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mkdirp': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.mkdirp-0rTjj4f5',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mkdirp.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.mkdirp.cmd-8wL5nhG2',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\mkdirp.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.mkdirp.ps1-SbmJwUgD',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\msgpackr-extract': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.msgpackr-extract-hb2T385M',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\download-msgpackr-prebuilds': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.download-msgpackr-prebuilds-2LSymLv8',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\download-msgpackr-prebuilds.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.download-msgpackr-prebuilds.cmd-JDyl9rkK',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\download-msgpackr-prebuilds.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.download-msgpackr-prebuilds.ps1-j4JSAy1L',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\nanoid': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.nanoid-DmZIR7L2',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nanoid': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.nanoid-qEQ0hSG5',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.nanoid.cmd-3g4ktV6d',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.nanoid.ps1-AMOjFvzm',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\node-gyp-build-optional-packages': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.node-gyp-build-optional-packages-MXoSb72R',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages-0MT6ahtB',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages.cmd-zEsk4sWQ',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages.ps1-1lqgVOkT',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-optional': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages-optional-tlraMtvi',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-optional.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages-optional.cmd-ZXcRPyZ0',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-optional.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages-optional.ps1-ESAgo2H1',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-test': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages-test-ustuPwvE',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-test.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages-test.cmd-YPcM02g1',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp-build-optional-packages-test.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-build-optional-packages-test.ps1-aNEJkKrc',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\node-gyp': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.node-gyp-qoW4MndE',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp-LQx0N9Gq',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp.cmd-qVNX0Gve',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-gyp.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-gyp.ps1-tzkhsw9v',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\nopt': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.nopt-ON4nIyiT',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nopt': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.nopt-wNerlpWp',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nopt.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.nopt.cmd-EgxdmtAV',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\nopt.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.nopt.ps1-u75KqSU5',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\pacote': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.pacote-YPj6QMFN',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\pacote': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.pacote-s0oeEMgU',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\pacote.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.pacote.cmd-FHBQMwRB',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\pacote.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.pacote.ps1-NaVCF73Y',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\path-scurry': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.path-scurry-BbtV8scs',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\resolve': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.resolve-JguyN5ZK',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\resolve': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.resolve-Ayomqras',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.resolve.cmd-aFr4kscs',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.resolve.ps1-wjqINPOe',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\rimraf': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.rimraf-NTMmlSFK',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rimraf': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.rimraf-N1YExrGZ',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rimraf.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.rimraf.cmd-09kYmnap',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rimraf.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.rimraf.ps1-6EFiRXFm',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\rollup': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.rollup-393Rjo9o',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rollup': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.rollup-RozF1bhZ',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rollup.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.rollup.cmd-m6CuGYQL',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\rollup.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.rollup.ps1-9tOmgugS',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\semver': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.semver-vHO83Ni3',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\semver': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.semver-Mb1I5Iha',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.semver.cmd-JuMEjqKy',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.semver.ps1-N08TkrvL',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\ua-parser-js': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.ua-parser-js-NsuwpRzX',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ua-parser-js': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ua-parser-js-xCF99rOl',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ua-parser-js.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ua-parser-js.cmd-KUtlhf4B',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ua-parser-js.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ua-parser-js.ps1-WUWdHVkT',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\update-browserslist-db': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.update-browserslist-db-z9SACuQ7',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.update-browserslist-db-RnEiUmXL',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.update-browserslist-db.cmd-sFHSSNpO',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.update-browserslist-db.ps1-hZ27icn8',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\ansi-regex': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\.ansi-regex-uI6SyIG7',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\is-fullwidth-code-point': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\.is-fullwidth-code-point-InEdivcK',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\emoji-regex': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\wrap-ansi\\node_modules\\.emoji-regex-98KEEy3E',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\vite': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.vite-2HrKGAq2',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\vite': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.vite-uyocIEbH',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\vite.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.vite.cmd-XCpW6vWo',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\vite.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.vite.ps1-Rm0QKeoI',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\which': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.which-GU6gxSBZ',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-which': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-which-QZYV7b9X',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-which.cmd-DnXFEQOj',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.node-which.ps1-U8Yr9XtV',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\compiler-cli': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@angular\\.compiler-cli-FIGN7dr0',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ngc': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ngc-D71EUePp',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ngc.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ngc.cmd-a5GeKIo1',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ngc.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ngc.ps1-B1CqlGbk',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ng-xi18n': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ng-xi18n-MdeWCRNq',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ng-xi18n.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ng-xi18n.cmd-az9E3nd1',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\ng-xi18n.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.ng-xi18n.ps1-qv0FMNFW',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\parser': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@babel\\.parser-vMQ3oyNw',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\parser': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.parser-5X1bJD9f',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.parser.cmd-qm5hFMB3',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.parser.ps1-poYvtyn5',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\which': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.which-Skf28Ubm',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\node-which': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\.node-which-yYHxSTeu',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\.node-which.cmd-WDtCFaa4',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\git\\node_modules\\.bin\\.node-which.ps1-aRi4SgsB',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\installed-package-contents': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\.installed-package-contents-F63TLu0W',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\installed-package-contents': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.installed-package-contents-plTiFNBo',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\installed-package-contents.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.installed-package-contents.cmd-9l3udzVL',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\installed-package-contents.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\.bin\\.installed-package-contents.ps1-UiaIYyyz',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\minimatch': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\.minimatch-uu4r9L30',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\brace-expansion': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\.brace-expansion-Ry87NlMG',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\balanced-match': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\package-json\\node_modules\\.balanced-match-yRoy5mNC',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\which': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.which-onAIiPPP',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\node-which': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\.node-which-qS5zTWdr',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\.node-which.cmd-VrE4H0S3',
+461 silly reify   'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.bin\\.node-which.ps1-4qw5CnZE'
+461 silly reify }
+462 silly audit bulk request {
+462 silly audit   abbrev: [ '4.0.0' ],
+462 silly audit   accepts: [ '2.0.0', '1.3.8' ],
+462 silly audit   'agent-base': [ '7.1.4' ],
+462 silly audit   'ajv-formats': [ '3.0.1' ],
+462 silly audit   algoliasearch: [ '5.35.0' ],
+462 silly audit   'ansi-escapes': [ '7.3.0' ],
+462 silly audit   'ansi-regex': [ '6.4.0', '5.0.1' ],
+462 silly audit   'ansi-styles': [ '6.2.3', '4.3.0' ],
+462 silly audit   anymatch: [ '3.1.3' ],
+462 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+462 silly audit   'balanced-match': [ '1.0.2', '4.0.4' ],
+462 silly audit   'baseline-browser-mapping': [ '2.11.26' ],
+462 silly audit   beasties: [ '0.3.5' ],
+462 silly audit   'binary-extensions': [ '2.3.0' ],
+462 silly audit   'body-parser': [ '2.3.0', '1.20.8' ],
+462 silly audit   'content-type': [ '2.1.0', '1.0.5' ],
+462 silly audit   boolbase: [ '1.0.0' ],
+462 silly audit   'brace-expansion': [ '1.1.21', '5.0.12' ],
+462 silly audit   browserslist: [ '4.29.1' ],
+462 silly audit   braces: [ '3.0.3' ],
+462 silly audit   'buffer-from': [ '1.1.2' ],
+462 silly audit   bytes: [ '3.1.2' ],
+462 silly audit   cacache: [ '20.0.4' ],
+462 silly audit   minimatch: [ '10.2.6', '3.1.5' ],
+462 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+462 silly audit   'call-bound': [ '1.0.4' ],
+462 silly audit   chalk: [ '5.6.2' ],
+462 silly audit   chardet: [ '2.2.0' ],
+462 silly audit   chokidar: [ '4.0.3', '3.6.0' ],
+462 silly audit   chownr: [ '3.0.0' ],
+462 silly audit   'cli-cursor': [ '5.0.0' ],
+462 silly audit   'cli-spinners': [ '2.9.2' ],
+462 silly audit   'cli-truncate': [ '4.0.0' ],
+462 silly audit   'cli-width': [ '4.1.0' ],
+462 silly audit   cliui: [ '9.0.1', '7.0.4' ],
+462 silly audit   'wrap-ansi': [ '9.0.2', '6.2.0', '7.0.0' ],
+462 silly audit   'color-convert': [ '2.0.1' ],
+462 silly audit   'color-name': [ '1.1.4' ],
+462 silly audit   colorette: [ '2.0.20' ],
+462 silly audit   'concat-map': [ '0.0.1' ],
+462 silly audit   connect: [ '3.7.0' ],
+462 silly audit   debug: [ '2.6.9', '4.4.3' ],
+462 silly audit   encodeurl: [ '1.0.2', '2.0.0' ],
+462 silly audit   finalhandler: [ '1.1.2', '2.1.1' ],
+462 silly audit   ms: [ '2.0.0', '2.1.3' ],
+462 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+462 silly audit   statuses: [ '1.5.0', '2.0.2' ],
+462 silly audit   'content-disposition': [ '1.1.0' ],
+462 silly audit   'convert-source-map': [ '1.9.0', '2.0.0' ],
+462 silly audit   cookie: [ '0.7.2' ],
+462 silly audit   'cookie-signature': [ '1.2.2' ],
+462 silly audit   cors: [ '2.8.6' ],
+462 silly audit   'cross-spawn': [ '7.0.6' ],
+462 silly audit   'css-select': [ '6.0.0' ],
+462 silly audit   'css-what': [ '7.0.0' ],
+462 silly audit   'custom-event': [ '1.0.1' ],
+462 silly audit   'date-format': [ '4.0.14' ],
+462 silly audit   depd: [ '2.0.0' ],
+462 silly audit   destroy: [ '1.2.0' ],
+462 silly audit   'detect-libc': [ '2.1.2' ],
+462 silly audit   di: [ '0.0.1' ],
+462 silly audit   'dom-serialize': [ '2.2.1' ],
+462 silly audit   'dom-serializer': [ '2.0.0' ],
+462 silly audit   domelementtype: [ '2.3.0' ],
+462 silly audit   domhandler: [ '5.0.3' ],
+462 silly audit   domutils: [ '3.2.2' ],
+462 silly audit   'dunder-proto': [ '1.0.1' ],
+462 silly audit   'ee-first': [ '1.1.1' ],
+462 silly audit   'electron-to-chromium': [ '1.5.439' ],
+462 silly audit   'emoji-regex': [ '10.6.0', '8.0.0' ],
+462 silly audit   'engine.io': [ '6.6.11' ],
+462 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+462 silly audit   'mime-types': [ '2.1.35', '3.0.2' ],
+462 silly audit   negotiator: [ '0.6.3', '1.1.0' ],
+462 silly audit   'engine.io-parser': [ '5.2.3' ],
+462 silly audit   ent: [ '2.2.2' ],
+462 silly audit   entities: [ '4.5.0', '8.1.0' ],
+462 silly audit   'env-paths': [ '2.2.1' ],
+462 silly audit   environment: [ '1.1.0' ],
+462 silly audit   'es-define-property': [ '1.0.1' ],
+462 silly audit   'es-errors': [ '1.3.0' ],
+462 silly audit   'es-object-atoms': [ '1.1.2' ],
+462 silly audit   esbuild: [ '0.28.1' ],
+462 silly audit   escalade: [ '3.2.0' ],
+462 silly audit   'escape-html': [ '1.0.3' ],
+462 silly audit   etag: [ '1.8.1' ],
+462 silly audit   eventemitter3: [ '4.0.7' ],
+462 silly audit   eventsource: [ '3.0.7' ],
+462 silly audit   'eventsource-parser': [ '3.1.1' ],
+462 silly audit   'exponential-backoff': [ '3.1.3' ],
+462 silly audit   express: [ '5.2.1' ],
+462 silly audit   'express-rate-limit': [ '8.7.0' ],
+462 silly audit   extend: [ '3.0.2' ],
+462 silly audit   'fast-deep-equal': [ '3.1.3' ],
+462 silly audit   'fast-uri': [ '3.1.8' ],
+462 silly audit   fdir: [ '6.5.0' ],
+462 silly audit   'fill-range': [ '7.1.1' ],
+462 silly audit   flatted: [ '3.4.4' ],
+462 silly audit   'follow-redirects': [ '1.16.0' ],
+462 silly audit   forwarded: [ '0.2.0' ],
+462 silly audit   fresh: [ '2.0.0' ],
+462 silly audit   'fs-minipass': [ '3.0.3' ],
+462 silly audit   'fs-extra': [ '8.1.0' ],
+462 silly audit   'fs.realpath': [ '1.0.0' ],
+462 silly audit   'function-bind': [ '1.1.2' ],
+462 silly audit   gensync: [ '1.0.0-beta.2' ],
+462 silly audit   'get-caller-file': [ '2.0.5' ],
+462 silly audit   'get-east-asian-width': [ '1.7.0' ],
+462 silly audit   'get-intrinsic': [ '1.3.0' ],
+462 silly audit   'get-proto': [ '1.0.1' ],
+462 silly audit   glob: [ '7.2.3' ],
+462 silly audit   'glob-parent': [ '5.1.2' ],
+462 silly audit   'glob-to-regexp': [ '0.4.1' ],
+462 silly audit   gopd: [ '1.2.0' ],
+462 silly audit   'graceful-fs': [ '4.2.11' ],
+462 silly audit   'has-flag': [ '4.0.0' ],
+462 silly audit   'has-symbols': [ '1.1.0' ],
+462 silly audit   'has-tostringtag': [ '1.0.2' ],
+462 silly audit   hasown: [ '2.0.4' ],
+462 silly audit   'hosted-git-info': [ '9.0.3' ],
+462 silly audit   htmlparser2: [ '10.1.0' ],
+462 silly audit   'html-escaper': [ '2.0.2' ],
+462 silly audit   'http-cache-semantics': [ '4.2.0' ],
+462 silly audit   'http-errors': [ '2.0.1' ],
+462 silly audit   'http-proxy': [ '1.18.1' ],
+462 silly audit   'http-proxy-agent': [ '7.0.2' ],
+462 silly audit   'https-proxy-agent': [ '7.0.6' ],
+462 silly audit   'iconv-lite': [ '0.7.3', '0.4.24' ],
+462 silly audit   'ignore-walk': [ '8.0.0' ],
+462 silly audit   immutable: [ '5.1.9' ],
+462 silly audit   inflight: [ '1.0.6' ],
+462 silly audit   inherits: [ '2.0.4' ],
+462 silly audit   ini: [ '5.0.0', '6.0.0' ],
+462 silly audit   'ip-address': [ '10.7.2' ],
+462 silly audit   'ipaddr.js': [ '1.9.1' ],
+462 silly audit   'is-binary-path': [ '2.1.0' ],
+462 silly audit   'is-core-module': [ '2.17.0' ],
+462 silly audit   'is-fullwidth-code-point': [ '4.0.0', '5.1.0', '3.0.0' ],
+462 silly audit   'is-extglob': [ '2.1.1' ],
+462 silly audit   'is-glob': [ '4.0.3' ],
+462 silly audit   'is-interactive': [ '2.0.0' ],
+462 silly audit   'is-number': [ '7.0.0' ],
+462 silly audit   'is-promise': [ '4.0.0' ],
+462 silly audit   'is-regex': [ '1.2.1' ],
+462 silly audit   'is-unicode-supported': [ '2.1.0', '1.3.0' ],
+462 silly audit   isbinaryfile: [ '4.0.10' ],
+462 silly audit   isexe: [ '2.0.0', '4.0.0' ],
+462 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+462 silly audit   'istanbul-lib-instrument': [ '6.0.3', '5.2.1' ],
+462 silly audit   'istanbul-lib-report': [ '3.0.1' ],
+462 silly audit   'istanbul-lib-source-maps': [ '4.0.1' ],
+462 silly audit   'source-map': [ '0.6.1', '0.7.6' ],
+462 silly audit   'istanbul-reports': [ '3.2.0' ],
+462 silly audit   'jasmine-core': [ '5.9.0', '4.6.1' ],
+462 silly audit   jose: [ '6.2.12' ],
+462 silly audit   'js-tokens': [ '4.0.0' ],
+462 silly audit   'json-parse-even-better-errors': [ '5.0.0' ],
+462 silly audit   jsesc: [ '3.1.0' ],
+462 silly audit   'json-schema-traverse': [ '1.0.0' ],
+462 silly audit   'json-schema-typed': [ '8.0.2' ],
+462 silly audit   json5: [ '2.2.3' ],
+462 silly audit   'jsonc-parser': [ '3.3.1' ],
+462 silly audit   jsonfile: [ '4.0.0' ],
+462 silly audit   jsonparse: [ '1.3.1' ],
+462 silly audit   'karma-chrome-launcher': [ '3.2.0' ],
+462 silly audit   'karma-coverage': [ '2.2.1' ],
+462 silly audit   'karma-jasmine': [ '5.1.0' ],
+462 silly audit   'karma-jasmine-html-reporter': [ '2.1.0' ],
+462 silly audit   listr2: [ '9.0.1' ],
+462 silly audit   'log-symbols': [ '6.0.0' ],
+462 silly audit   log4js: [ '6.9.1' ],
+462 silly audit   'log-update': [ '6.1.0' ],
+462 silly audit   'slice-ansi': [ '7.1.2', '5.0.0' ],
+462 silly audit   'lru-cache': [ '5.1.1' ],
+462 silly audit   'magic-string': [ '0.30.17' ],
+462 silly audit   'make-dir': [ '4.0.0' ],
+462 silly audit   'make-fetch-happen': [ '15.0.6' ],
+462 silly audit   'proc-log': [ '6.1.0', '5.0.0' ],
+462 silly audit   'math-intrinsics': [ '1.1.0' ],
+462 silly audit   'media-typer': [ '1.1.1', '0.3.0' ],
+462 silly audit   'merge-descriptors': [ '2.0.0' ],
+462 silly audit   mime: [ '2.6.0' ],
+462 silly audit   'mimic-function': [ '5.0.1' ],
+462 silly audit   minimist: [ '1.2.8' ],
+462 silly audit   minipass: [ '7.1.3', '3.3.6' ],
+462 silly audit   'minipass-collect': [ '2.0.1' ],
+462 silly audit   'minipass-fetch': [ '5.0.2' ],
+462 silly audit   'minipass-flush': [ '1.0.7' ],
+462 silly audit   yallist: [ '4.0.0', '5.0.0', '3.1.1' ],
+462 silly audit   'minipass-pipeline': [ '1.2.4' ],
+462 silly audit   'minipass-sized': [ '2.0.0' ],
+462 silly audit   minizlib: [ '3.1.0' ],
+462 silly audit   mkdirp: [ '0.5.6' ],
+462 silly audit   mrmime: [ '2.0.1' ],
+462 silly audit   msgpackr: [ '1.12.1' ],
+462 silly audit   'msgpackr-extract': [ '3.0.4' ],
+462 silly audit   'mute-stream': [ '2.0.0' ],
+462 silly audit   nanoid: [ '3.3.19' ],
+462 silly audit   'node-addon-api': [ '6.1.0', '7.1.1' ],
+462 silly audit   'node-gyp': [ '12.4.0' ],
+462 silly audit   which: [ '6.0.1', '2.0.2', '1.3.1' ],
+462 silly audit   'node-gyp-build-optional-packages': [ '5.2.2' ],
+462 silly audit   'node-releases': [ '2.0.57' ],
+462 silly audit   nopt: [ '9.0.0' ],
+462 silly audit   'normalize-path': [ '3.0.0' ],
+462 silly audit   'npm-bundled': [ '5.0.0' ],
+462 silly audit   'npm-install-checks': [ '8.0.0' ],
+462 silly audit   'npm-normalize-package-bin': [ '5.0.0' ],
+462 silly audit   'npm-package-arg': [ '13.0.0' ],
+462 silly audit   'npm-packlist': [ '10.0.4' ],
+462 silly audit   'npm-pick-manifest': [ '11.0.3' ],
+462 silly audit   'npm-registry-fetch': [ '19.1.1' ],
+462 silly audit   'nth-check': [ '2.1.1' ],
+462 silly audit   'object-assign': [ '4.1.1' ],
+462 silly audit   'object-inspect': [ '1.13.4' ],
+462 silly audit   once: [ '1.4.0' ],
+462 silly audit   onetime: [ '7.0.0' ],
+462 silly audit   ora: [ '8.2.0' ],
+462 silly audit   'ordered-binary': [ '1.6.2' ],
+462 silly audit   'p-map': [ '7.0.8' ],
+462 silly audit   pacote: [ '21.5.1' ],
+462 silly audit   parse5: [ '8.0.1' ],
+462 silly audit   'parse5-html-rewriting-stream': [ '8.0.0' ],
+462 silly audit   'parse5-sax-parser': [ '8.0.0' ],
+462 silly audit   parseurl: [ '1.3.3' ],
+462 silly audit   'path-is-absolute': [ '1.0.1' ],
+462 silly audit   'path-parse': [ '1.0.7' ],
+462 silly audit   'path-key': [ '3.1.1' ],
+462 silly audit   picocolors: [ '1.1.1' ],
+462 silly audit   'path-to-regexp': [ '8.4.2' ],
+462 silly audit   piscina: [ '5.2.0' ],
+462 silly audit   'pkce-challenge': [ '5.0.1' ],
+462 silly audit   postcss: [ '8.5.28' ],
+462 silly audit   'postcss-media-query-parser': [ '0.2.3' ],
+462 silly audit   'proxy-addr': [ '2.0.8' ],
+462 silly audit   punycode: [ '1.4.1' ],
+462 silly audit   qjobs: [ '1.2.0' ],
+462 silly audit   qs: [ '6.16.0' ],
+462 silly audit   'range-parser': [ '1.3.0' ],
+462 silly audit   'raw-body': [ '3.0.2', '2.5.3' ],
+462 silly audit   readdirp: [ '4.1.2', '3.6.0' ],
+462 silly audit   'reflect-metadata': [ '0.2.2' ],
+462 silly audit   'require-directory': [ '2.1.1' ],
+462 silly audit   'require-from-string': [ '2.0.2' ],
+462 silly audit   'requires-port': [ '1.0.0' ],
+462 silly audit   resolve: [ '1.22.10' ],
+462 silly audit   'restore-cursor': [ '5.1.0' ],
+462 silly audit   rfdc: [ '1.4.1' ],
+462 silly audit   rimraf: [ '3.0.2' ],
+462 silly audit   rollup: [ '4.59.0' ],
+462 silly audit   router: [ '2.2.0' ],
+462 silly audit   'safe-regex-test': [ '1.1.0' ],
+462 silly audit   'safer-buffer': [ '2.1.2' ],
+462 silly audit   semver: [ '7.7.2', '6.3.1' ],
+462 silly audit   send: [ '1.2.1' ],
+462 silly audit   'serve-static': [ '2.2.1' ],
+462 silly audit   setprototypeof: [ '1.2.0' ],
+462 silly audit   'shebang-command': [ '2.0.0' ],
+462 silly audit   'shebang-regex': [ '3.0.0' ],
+462 silly audit   'side-channel-list': [ '1.0.1' ],
+462 silly audit   'side-channel': [ '1.1.1' ],
+462 silly audit   'side-channel-map': [ '1.0.1' ],
+462 silly audit   'signal-exit': [ '4.1.0' ],
+462 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+462 silly audit   sigstore: [ '4.1.1' ],
+462 silly audit   'smart-buffer': [ '4.2.0' ],
+462 silly audit   'socket.io': [ '4.8.4' ],
+462 silly audit   'socket.io-adapter': [ '2.5.8' ],
+462 silly audit   'socket.io-parser': [ '4.2.7' ],
+462 silly audit   socks: [ '2.8.10' ],
+462 silly audit   'socks-proxy-agent': [ '8.0.5' ],
+462 silly audit   'source-map-js': [ '1.2.1' ],
+462 silly audit   'source-map-support': [ '0.5.21' ],
+462 silly audit   'spdx-exceptions': [ '2.5.0' ],
+462 silly audit   'spdx-expression-parse': [ '4.0.0' ],
+462 silly audit   'spdx-license-ids': [ '3.0.24' ],
+462 silly audit   ssri: [ '13.0.1' ],
+462 silly audit   'stdin-discarder': [ '0.2.2' ],
+462 silly audit   streamroller: [ '3.1.5' ],
+462 silly audit   'string-width': [ '7.2.0', '4.2.3' ],
+462 silly audit   'strip-ansi': [ '7.2.0', '6.0.1' ],
+462 silly audit   'supports-color': [ '7.2.0' ],
+462 silly audit   tar: [ '7.5.22' ],
+462 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+462 silly audit   tinyglobby: [ '0.2.14' ],
+462 silly audit   tmp: [ '0.2.7' ],
+462 silly audit   'to-regex-range': [ '5.0.1' ],
+462 silly audit   toidentifier: [ '1.0.1' ],
+462 silly audit   tslib: [ '2.8.1' ],
+462 silly audit   'tuf-js': [ '4.1.0' ],
+462 silly audit   'type-is': [ '2.1.0', '1.6.18' ],
+462 silly audit   'ua-parser-js': [ '0.7.41' ],
+462 silly audit   'undici-types': [ '8.9.0' ],
+462 silly audit   universalify: [ '0.1.2' ],
+462 silly audit   unpipe: [ '1.0.0' ],
+462 silly audit   'utils-merge': [ '1.0.1' ],
+462 silly audit   'update-browserslist-db': [ '1.3.3' ],
+462 silly audit   'validate-npm-package-name': [ '6.0.2' ],
+462 silly audit   vary: [ '1.1.2' ],
+462 silly audit   vite: [ '7.3.6' ],
+462 silly audit   'void-elements': [ '2.0.1' ],
+462 silly audit   watchpack: [ '2.4.4' ],
+462 silly audit   'weak-lru-cache': [ '1.2.2' ],
+462 silly audit   wrappy: [ '1.0.2' ],
+462 silly audit   ws: [ '8.21.3' ],
+462 silly audit   y18n: [ '5.0.8' ],
+462 silly audit   yargs: [ '18.0.0', '16.2.2' ],
+462 silly audit   'yargs-parser': [ '22.0.0', '20.2.9' ],
+462 silly audit   'yoctocolors-cjs': [ '2.1.3' ],
+462 silly audit   'zod-to-json-schema': [ '3.25.2' ],
+462 silly audit   '@algolia/abtesting': [ '1.1.0' ],
+462 silly audit   '@algolia/client-common': [ '5.35.0' ],
+462 silly audit   '@algolia/client-analytics': [ '5.35.0' ],
+462 silly audit   '@algolia/client-insights': [ '5.35.0' ],
+462 silly audit   '@algolia/client-personalization': [ '5.35.0' ],
+462 silly audit   '@algolia/client-query-suggestions': [ '5.35.0' ],
+462 silly audit   '@algolia/client-search': [ '5.35.0' ],
+462 silly audit   '@algolia/ingestion': [ '1.35.0' ],
+462 silly audit   '@algolia/client-abtesting': [ '5.35.0' ],
+462 silly audit   '@algolia/monitoring': [ '1.35.0' ],
+462 silly audit   '@algolia/recommend': [ '5.35.0' ],
+462 silly audit   '@algolia/requester-browser-xhr': [ '5.35.0' ],
+462 silly audit   '@algolia/requester-fetch': [ '5.35.0' ],
+462 silly audit   '@algolia/requester-node-http': [ '5.35.0' ],
+462 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+462 silly audit   '@angular/animations': [ '20.3.32' ],
+462 silly audit   '@angular/compiler': [ '20.3.32' ],
+462 silly audit   '@angular/compiler-cli': [ '20.3.32' ],
+462 silly audit   '@angular/forms': [ '20.3.32' ],
+462 silly audit   '@angular/platform-browser': [ '20.3.32' ],
+462 silly audit   '@angular-devkit/core': [ '20.3.37' ],
+462 silly audit   '@angular-devkit/architect': [ '0.2003.37' ],
+462 silly audit   '@angular-devkit/schematics': [ '20.3.37' ],
+462 silly audit   '@babel/code-frame': [ '7.29.7' ],
+462 silly audit   '@babel/compat-data': [ '7.29.7' ],
+462 silly audit   '@babel/helper-annotate-as-pure': [ '7.27.3' ],
+462 silly audit   '@babel/helper-compilation-targets': [ '7.29.7' ],
+462 silly audit   '@babel/helper-globals': [ '7.29.7' ],
+462 silly audit   '@babel/helper-module-imports': [ '7.29.7' ],
+462 silly audit   '@babel/helper-module-transforms': [ '7.29.7' ],
+462 silly audit   '@babel/helper-split-export-declaration': [ '7.24.7' ],
+462 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+462 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+462 silly audit   '@babel/helper-validator-option': [ '7.29.7' ],
+462 silly audit   '@babel/parser': [ '7.29.9' ],
+462 silly audit   '@babel/template': [ '7.29.7' ],
+462 silly audit   '@babel/traverse': [ '7.29.8' ],
+462 silly audit   '@colors/colors': [ '1.5.0' ],
+462 silly audit   '@gar/promise-retry': [ '1.0.3' ],
+462 silly audit   '@hono/node-server': [ '2.1.1' ],
+462 silly audit   '@inquirer/ansi': [ '1.0.2' ],
+462 silly audit   '@inquirer/checkbox': [ '4.3.2' ],
+462 silly audit   '@inquirer/core': [ '10.3.2' ],
+462 silly audit   '@inquirer/confirm': [ '5.1.14' ],
+462 silly audit   '@babel/generator': [ '7.29.8' ],
+462 silly audit   '@inquirer/editor': [ '4.2.23' ],
+462 silly audit   '@inquirer/expand': [ '4.0.23' ],
+462 silly audit   '@inquirer/external-editor': [ '1.0.3' ],
+462 silly audit   '@inquirer/figures': [ '1.0.15' ],
+462 silly audit   '@inquirer/input': [ '4.3.1' ],
+462 silly audit   '@inquirer/number': [ '3.0.23' ],
+462 silly audit   '@inquirer/password': [ '4.0.23' ],
+462 silly audit   '@inquirer/rawlist': [ '4.1.11' ],
+462 silly audit   '@inquirer/search': [ '3.2.2' ],
+462 silly audit   '@inquirer/select': [ '4.4.2' ],
+462 silly audit   '@inquirer/type': [ '3.0.10' ],
+462 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+462 silly audit   '@istanbuljs/schema': [ '0.1.6' ],
+462 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+462 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+462 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+462 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+462 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+462 silly audit   '@listr2/prompt-adapter-inquirer': [ '3.0.1' ],
+462 silly audit   '@lmdb/lmdb-win32-x64': [ '3.4.2' ],
+462 silly audit   '@msgpackr-extract/msgpackr-extract-win32-x64': [ '3.0.4' ],
+462 silly audit   '@napi-rs/nice': [ '1.1.1' ],
+462 silly audit   '@napi-rs/nice-win32-x64-msvc': [ '1.1.1' ],
+462 silly audit   '@inquirer/prompts': [ '7.8.2' ],
+462 silly audit   '@npmcli/agent': [ '4.0.2' ],
+462 silly audit   '@npmcli/fs': [ '5.0.0' ],
+462 silly audit   '@npmcli/git': [ '7.0.2' ],
+462 silly audit   '@npmcli/installed-package-contents': [ '4.0.0' ],
+462 silly audit   '@npmcli/node-gyp': [ '5.0.0' ],
+462 silly audit   '@npmcli/package-json': [ '7.0.5' ],
+462 silly audit   '@npmcli/redact': [ '4.0.0' ],
+462 silly audit   '@npmcli/promise-spawn': [ '9.0.1' ],
+462 silly audit   '@npmcli/run-script': [ '10.0.4' ],
+462 silly audit   '@parcel/watcher': [ '2.6.0' ],
+462 silly audit   '@parcel/watcher-win32-x64': [ '2.6.0' ],
+462 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.59.0' ],
+462 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.59.0' ],
+462 silly audit   '@sigstore/bundle': [ '4.0.0' ],
+462 silly audit   '@sigstore/core': [ '3.2.1' ],
+462 silly audit   '@sigstore/protobuf-specs': [ '0.5.2' ],
+462 silly audit   '@sigstore/tuf': [ '4.0.2' ],
+462 silly audit   '@sigstore/verify': [ '3.1.1' ],
+462 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+462 silly audit   '@tufjs/canonical-json': [ '2.0.0' ],
+462 silly audit   '@tufjs/models': [ '4.1.0' ],
+462 silly audit   '@types/cors': [ '2.8.19' ],
+462 silly audit   '@types/estree': [ '1.0.8' ],
+462 silly audit   '@types/node': [ '26.6.3' ],
+462 silly audit   '@types/jasmine': [ '5.1.15' ],
+462 silly audit   '@types/ws': [ '8.18.1' ],
+462 silly audit   '@vitejs/plugin-basic-ssl': [ '2.1.0' ],
+462 silly audit   '@yarnpkg/lockfile': [ '1.1.0' ],
+462 silly audit   '@sigstore/sign': [ '4.1.1' ],
+462 silly audit   '@angular/build': [ '20.3.37' ],
+462 silly audit   typescript: [ '5.9.3' ],
+462 silly audit   '@angular/cli': [ '20.3.37' ],
+462 silly audit   '@angular/common': [ '20.3.32' ],
+462 silly audit   rxjs: [ '7.8.2' ],
+462 silly audit   '@angular/core': [ '20.3.32' ],
+462 silly audit   'zone.js': [ '0.15.1' ],
+462 silly audit   karma: [ '6.4.4' ],
+462 silly audit   '@babel/core': [ '7.29.7' ],
+462 silly audit   lmdb: [ '3.4.2' ],
+462 silly audit   sass: [ '1.90.0' ],
+462 silly audit   '@modelcontextprotocol/sdk': [ '1.30.0' ],
+462 silly audit   '@schematics/angular': [ '20.3.37' ],
+462 silly audit   zod: [ '4.1.13' ],
+462 silly audit   '@babel/helpers': [ '7.29.7' ],
+462 silly audit   '@babel/types': [ '7.29.8' ],
+462 silly audit   ajv: [ '8.20.0' ],
+462 silly audit   hono: [ '4.13.9' ],
+462 silly audit   lodash: [ '4.18.1' ],
+462 silly audit   '@lmdb/lmdb-darwin-arm64': [ '3.4.2' ],
+462 silly audit   '@lmdb/lmdb-darwin-x64': [ '3.4.2' ],
+462 silly audit   '@lmdb/lmdb-linux-arm': [ '3.4.2' ],
+462 silly audit   '@lmdb/lmdb-linux-arm64': [ '3.4.2' ],
+462 silly audit   '@lmdb/lmdb-linux-x64': [ '3.4.2' ],
+462 silly audit   '@lmdb/lmdb-win32-arm64': [ '3.4.2' ],
+462 silly audit   fsevents: [ '2.3.3' ]
+462 silly audit }
+463 silly packumentCache corgi:https://registry.npmjs.org/@npmcli%2finstalled-package-contents cache-miss
+464 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser cache-miss
+465 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcompiler-cli cache-miss
+466 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+467 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+468 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+469 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+470 silly packumentCache corgi:https://registry.npmjs.org/ua-parser-js cache-miss
+471 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+472 silly packumentCache corgi:https://registry.npmjs.org/rimraf cache-miss
+473 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+474 silly packumentCache corgi:https://registry.npmjs.org/pacote cache-miss
+475 silly packumentCache corgi:https://registry.npmjs.org/node-gyp cache-miss
+476 silly packumentCache corgi:https://registry.npmjs.org/nopt cache-miss
+477 silly packumentCache corgi:https://registry.npmjs.org/node-gyp-build-optional-packages cache-miss
+478 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+479 silly packumentCache corgi:https://registry.npmjs.org/msgpackr-extract cache-miss
+480 silly packumentCache corgi:https://registry.npmjs.org/mkdirp cache-miss
+481 silly packumentCache corgi:https://registry.npmjs.org/mime cache-miss
+482 silly packumentCache corgi:https://registry.npmjs.org/json5 cache-miss
+483 silly packumentCache corgi:https://registry.npmjs.org/jsesc cache-miss
+484 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+485 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+486 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+487 http cache @modelcontextprotocol/sdk@https://registry.npmjs.org/@modelcontextprotocol/sdk/-/sdk-1.30.0.tgz 0ms (cache hit)
+488 http cache @schematics/angular@https://registry.npmjs.org/@schematics/angular/-/angular-20.3.37.tgz 0ms (cache hit)
+489 http cache @angular/core@https://registry.npmjs.org/@angular/core/-/core-20.3.32.tgz 0ms (cache hit)
+490 http cache @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz 0ms (cache hit)
+491 http cache @angular/common@https://registry.npmjs.org/@angular/common/-/common-20.3.32.tgz 0ms (cache hit)
+492 http cache @angular/cli@https://registry.npmjs.org/@angular/cli/-/cli-20.3.37.tgz 0ms (cache hit)
+493 http cache zod@https://registry.npmjs.org/zod/-/zod-4.1.13.tgz 0ms (cache hit)
+494 http cache @angular/build@https://registry.npmjs.org/@angular/build/-/build-20.3.37.tgz 0ms (cache hit)
+495 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+496 http cache zone.js@https://registry.npmjs.org/zone.js/-/zone.js-0.15.1.tgz 0ms (cache hit)
+497 http cache rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz 0ms (cache hit)
+498 http cache sass@https://registry.npmjs.org/sass/-/sass-1.90.0.tgz 0ms (cache hit)
+499 http cache lmdb@https://registry.npmjs.org/lmdb/-/lmdb-3.4.2.tgz 0ms (cache hit)
+500 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+501 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+502 http cache karma@https://registry.npmjs.org/karma/-/karma-6.4.4.tgz 0ms (cache hit)
+503 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+504 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+505 http cache jasmine-core@https://registry.npmjs.org/jasmine-core/-/jasmine-core-4.6.1.tgz 0ms (cache hit)
+506 http cache which@https://registry.npmjs.org/which/-/which-1.3.1.tgz 0ms (cache hit)
+507 http cache hono@https://registry.npmjs.org/hono/-/hono-4.13.9.tgz 0ms (cache hit)
+508 http cache istanbul-lib-instrument@https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-5.2.1.tgz 0ms (cache hit)
+509 http cache @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz 0ms (cache hit)
+510 http cache ajv@https://registry.npmjs.org/ajv/-/ajv-8.20.0.tgz 0ms (cache hit)
+511 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+512 http cache @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.29.8.tgz 0ms (cache hit)
+513 http cache convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 0ms (cache hit)
+514 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 0ms (cache hit)
+515 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz 0ms (cache hit)
+516 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 0ms (cache hit)
+517 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-16.2.2.tgz 0ms (cache hit)
+518 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+519 http cache type-is@https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 0ms (cache hit)
+520 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 0ms (cache hit)
+521 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+522 http cache raw-body@https://registry.npmjs.org/raw-body/-/raw-body-2.5.3.tgz 0ms (cache hit)
+523 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 0ms (cache hit)
+524 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 0ms (cache hit)
+525 http cache ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 0ms (cache hit)
+526 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+527 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 0ms (cache hit)
+528 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+529 http cache media-typer@https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 0ms (cache hit)
+530 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+531 http cache debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 0ms (cache hit)
+532 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 0ms (cache hit)
+533 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 0ms (cache hit)
+534 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+535 http cache body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.20.8.tgz 0ms (cache hit)
+536 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+537 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+538 silly tarball no local data for @modelcontextprotocol/sdk@https://registry.npmjs.org/@modelcontextprotocol/sdk/-/sdk-1.30.0.tgz. Extracting by manifest.
+539 silly tarball no local data for @schematics/angular@https://registry.npmjs.org/@schematics/angular/-/angular-20.3.37.tgz. Extracting by manifest.
+540 silly tarball no local data for @angular/core@https://registry.npmjs.org/@angular/core/-/core-20.3.32.tgz. Extracting by manifest.
+541 silly tarball no local data for @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz. Extracting by manifest.
+542 silly tarball no local data for @angular/common@https://registry.npmjs.org/@angular/common/-/common-20.3.32.tgz. Extracting by manifest.
+543 silly tarball no local data for @angular/cli@https://registry.npmjs.org/@angular/cli/-/cli-20.3.37.tgz. Extracting by manifest.
+544 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-4.1.13.tgz. Extracting by manifest.
+545 silly tarball no local data for @angular/build@https://registry.npmjs.org/@angular/build/-/build-20.3.37.tgz. Extracting by manifest.
+546 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+547 silly tarball no local data for zone.js@https://registry.npmjs.org/zone.js/-/zone.js-0.15.1.tgz. Extracting by manifest.
+548 silly tarball no local data for rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz. Extracting by manifest.
+549 silly tarball no local data for sass@https://registry.npmjs.org/sass/-/sass-1.90.0.tgz. Extracting by manifest.
+550 silly tarball no local data for lmdb@https://registry.npmjs.org/lmdb/-/lmdb-3.4.2.tgz. Extracting by manifest.
+551 silly tarball no local data for karma@https://registry.npmjs.org/karma/-/karma-6.4.4.tgz. Extracting by manifest.
+552 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+553 silly tarball no local data for jasmine-core@https://registry.npmjs.org/jasmine-core/-/jasmine-core-4.6.1.tgz. Extracting by manifest.
+554 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-1.3.1.tgz. Extracting by manifest.
+555 silly tarball no local data for hono@https://registry.npmjs.org/hono/-/hono-4.13.9.tgz. Extracting by manifest.
+556 silly tarball no local data for istanbul-lib-instrument@https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-5.2.1.tgz. Extracting by manifest.
+557 silly tarball no local data for @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz. Extracting by manifest.
+558 silly tarball no local data for ajv@https://registry.npmjs.org/ajv/-/ajv-8.20.0.tgz. Extracting by manifest.
+559 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+560 silly tarball no local data for @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.29.8.tgz. Extracting by manifest.
+561 silly tarball no local data for convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz. Extracting by manifest.
+562 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz. Extracting by manifest.
+563 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz. Extracting by manifest.
+564 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz. Extracting by manifest.
+565 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-16.2.2.tgz. Extracting by manifest.
+566 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz. Extracting by manifest.
+567 silly tarball no local data for type-is@https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz. Extracting by manifest.
+568 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+569 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz. Extracting by manifest.
+570 silly tarball no local data for raw-body@https://registry.npmjs.org/raw-body/-/raw-body-2.5.3.tgz. Extracting by manifest.
+571 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+572 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz. Extracting by manifest.
+573 silly tarball no local data for media-typer@https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz. Extracting by manifest.
+574 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz. Extracting by manifest.
+575 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz. Extracting by manifest.
+576 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+577 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz. Extracting by manifest.
+578 silly tarball no local data for body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.20.8.tgz. Extracting by manifest.
+579 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz. Extracting by manifest.
+580 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz. Extracting by manifest.
+581 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 704ms
+582 silly audit report {}
+583 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 1018ms (cache miss)
+584 http fetch GET 200 https://registry.npmjs.org/which/-/which-1.3.1.tgz 1386ms (cache miss)
+585 http fetch GET 200 https://registry.npmjs.org/karma/-/karma-6.4.4.tgz 1632ms (cache miss)
+586 http fetch GET 200 https://registry.npmjs.org/jasmine-core/-/jasmine-core-4.6.1.tgz 1747ms (cache miss)
+587 http fetch GET 200 https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-5.2.1.tgz 1761ms (cache miss)
+588 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 2041ms (cache miss)
+589 http fetch GET 200 https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz 2097ms (cache miss)
+590 http fetch GET 200 https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 2258ms (cache miss)
+591 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 2410ms (cache miss)
+592 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 2449ms (cache miss)
+593 http fetch GET 200 https://registry.npmjs.org/zone.js/-/zone.js-0.15.1.tgz 2495ms (cache miss)
+594 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 2512ms (cache miss)
+595 http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 2571ms (cache miss)
+596 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 2582ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-2.5.3.tgz 2639ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 2657ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 2774ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 2779ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 2808ms (cache miss)
+602 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 2852ms (cache miss)
+603 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.20.8.tgz 2855ms (cache miss)
+604 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 2875ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 2893ms (cache miss)
+606 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 3011ms (cache miss)
+607 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db set size:undefined disposed:false
+608 http fetch GET 200 https://registry.npmjs.org/which 3039ms (cache miss)
+609 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+610 http fetch GET 200 https://registry.npmjs.org/ua-parser-js 3060ms (cache miss)
+611 silly packumentCache corgi:https://registry.npmjs.org/ua-parser-js set size:undefined disposed:false
+612 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 3017ms (cache miss)
+613 http fetch GET 200 https://registry.npmjs.org/semver 3142ms (cache miss)
+614 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+615 http cache https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.3.tgz 158ms (cache hit)
+616 http cache https://registry.npmjs.org/which/-/which-2.0.2.tgz 144ms (cache hit)
+617 http fetch GET 200 https://registry.npmjs.org/rimraf 3188ms (cache miss)
+618 silly packumentCache corgi:https://registry.npmjs.org/rimraf set size:undefined disposed:false
+619 http cache https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.41.tgz 144ms (cache hit)
+620 http fetch GET 200 https://registry.npmjs.org/node-gyp 3229ms (cache miss)
+621 silly packumentCache corgi:https://registry.npmjs.org/node-gyp set size:undefined disposed:false
+622 http fetch GET 200 https://registry.npmjs.org/nanoid 3275ms (cache miss)
+623 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+624 http cache https://registry.npmjs.org/semver/-/semver-7.7.2.tgz 161ms (cache hit)
+625 http fetch GET 200 https://registry.npmjs.org/nopt 3316ms (cache miss)
+626 silly packumentCache corgi:https://registry.npmjs.org/nopt set size:undefined disposed:false
+627 http cache https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 159ms (cache hit)
+628 http fetch GET 200 https://registry.npmjs.org/@npmcli%2finstalled-package-contents 3408ms (cache miss)
+629 silly packumentCache corgi:https://registry.npmjs.org/@npmcli%2finstalled-package-contents set size:undefined disposed:false
+630 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.19.tgz 133ms (cache hit)
+631 http cache https://registry.npmjs.org/nopt/-/nopt-9.0.0.tgz 125ms (cache hit)
+632 http fetch GET 200 https://registry.npmjs.org/resolve 3492ms (cache miss)
+633 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+634 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 3482ms (cache miss)
+635 http fetch GET 200 https://registry.npmjs.org/jsesc 3550ms (cache miss)
+636 silly packumentCache corgi:https://registry.npmjs.org/jsesc set size:undefined disposed:false
+637 http fetch GET 200 https://registry.npmjs.org/msgpackr-extract 3568ms (cache miss)
+638 silly packumentCache corgi:https://registry.npmjs.org/msgpackr-extract set size:undefined disposed:false
+639 http fetch GET 200 https://registry.npmjs.org/pacote 3582ms (cache miss)
+640 silly packumentCache corgi:https://registry.npmjs.org/pacote set size:undefined disposed:false
+641 http fetch GET 200 https://registry.npmjs.org/browserslist 3599ms (cache miss)
+642 silly packumentCache corgi:https://registry.npmjs.org/browserslist set size:undefined disposed:false
+643 http fetch GET 200 https://registry.npmjs.org/which 3664ms (cache miss)
+644 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+645 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 3682ms (cache miss)
+646 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser set size:undefined disposed:false
+647 http cache https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz 188ms (cache hit)
+648 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 3711ms (cache miss)
+649 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcompiler-cli set size:undefined disposed:false
+650 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 3727ms (cache miss)
+651 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+652 http fetch GET 200 https://registry.npmjs.org/which 3746ms (cache miss)
+653 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+654 http fetch GET 200 https://registry.npmjs.org/which 3749ms (cache miss)
+655 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+656 http fetch GET 200 https://registry.npmjs.org/@npmcli/installed-package-contents/-/installed-package-contents-4.0.0.tgz 360ms (cache revalidated)
+657 http cache https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 219ms (cache hit)
+658 http cache https://registry.npmjs.org/msgpackr-extract/-/msgpackr-extract-3.0.4.tgz 236ms (cache hit)
+659 http cache https://registry.npmjs.org/pacote/-/pacote-21.5.1.tgz 231ms (cache hit)
+660 http cache https://registry.npmjs.org/browserslist/-/browserslist-4.29.1.tgz 232ms (cache hit)
+661 http cache https://registry.npmjs.org/which/-/which-6.0.1.tgz 237ms (cache hit)
+662 http fetch GET 200 https://registry.npmjs.org/mime 3933ms (cache miss)
+663 silly packumentCache corgi:https://registry.npmjs.org/mime set size:undefined disposed:false
+664 http cache https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.26.tgz 214ms (cache hit)
+665 http fetch GET 200 https://registry.npmjs.org/json5 3953ms (cache miss)
+666 silly packumentCache corgi:https://registry.npmjs.org/json5 set size:undefined disposed:false
+667 http fetch GET 200 https://registry.npmjs.org/mkdirp 3964ms (cache miss)
+668 silly packumentCache corgi:https://registry.npmjs.org/mkdirp set size:undefined disposed:false
+669 http cache https://registry.npmjs.org/which/-/which-6.0.1.tgz 213ms (cache hit)
+670 http fetch GET 200 https://registry.npmjs.org/node-gyp-build-optional-packages 3973ms (cache miss)
+671 silly packumentCache corgi:https://registry.npmjs.org/node-gyp-build-optional-packages set size:undefined disposed:false
+672 http cache https://registry.npmjs.org/which/-/which-6.0.1.tgz 219ms (cache hit)
+673 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.9.tgz 429ms (cache revalidated)
+674 http cache https://registry.npmjs.org/mime/-/mime-2.6.0.tgz 219ms (cache hit)
+675 http cache https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 231ms (cache hit)
+676 http cache https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 228ms (cache hit)
+677 http cache https://registry.npmjs.org/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-5.2.2.tgz 222ms (cache hit)
+678 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 4155ms (cache miss)
+679 http fetch GET 200 https://registry.npmjs.org/esbuild 4248ms (cache miss)
+680 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+681 http cache https://registry.npmjs.org/esbuild/-/esbuild-0.28.1.tgz 117ms (cache hit)
+682 http fetch GET 200 https://registry.npmjs.org/vite 4518ms (cache miss)
+683 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+684 http fetch GET 200 https://registry.npmjs.org/rollup 4585ms (cache miss)
+685 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:undefined disposed:false
+686 http cache https://registry.npmjs.org/vite/-/vite-7.3.6.tgz 156ms (cache hit)
+687 http cache https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz 122ms (cache hit)
+688 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-16.2.2.tgz 4921ms (cache miss)
+689 http fetch GET 200 https://registry.npmjs.org/sass/-/sass-1.90.0.tgz 5007ms (cache miss)
+690 http fetch GET 200 https://registry.npmjs.org/lmdb/-/lmdb-3.4.2.tgz 5141ms (cache miss)
+691 http fetch GET 200 https://registry.npmjs.org/@angular/cli/-/cli-20.3.37.tgz 6294ms (cache miss)
+692 http fetch GET 200 https://registry.npmjs.org/@angular/core/-/core-20.3.32.tgz 7399ms (cache miss)
+693 http fetch GET 200 https://registry.npmjs.org/node-gyp/-/node-gyp-12.4.0.tgz 4485ms (cache miss)
+694 http fetch GET 200 https://registry.npmjs.org/@babel/types/-/types-7.29.8.tgz 8070ms (cache miss)
+695 http fetch GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz 8595ms (cache miss)
+696 http fetch GET 200 https://registry.npmjs.org/@schematics/angular/-/angular-20.3.37.tgz 9042ms (cache miss)
+697 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 9252ms (cache miss)
+698 http fetch GET 200 https://registry.npmjs.org/@angular/build/-/build-20.3.37.tgz 9589ms (cache miss)
+699 http fetch GET 200 https://registry.npmjs.org/ajv/-/ajv-8.20.0.tgz 10882ms (cache miss)
+700 http fetch GET 200 https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-20.3.32.tgz 7420ms (cache miss)
+701 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-4.1.13.tgz 11422ms (cache miss)
+702 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz 11801ms (cache miss)
+703 http fetch GET 200 https://registry.npmjs.org/hono/-/hono-4.13.9.tgz 11813ms (cache miss)
+704 http fetch GET 200 https://registry.npmjs.org/@modelcontextprotocol/sdk/-/sdk-1.30.0.tgz 12317ms (cache miss)
+705 http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz 17522ms (cache miss)
+706 http fetch GET 200 https://registry.npmjs.org/@angular/common/-/common-20.3.32.tgz 18852ms (cache miss)
+707 info run lmdb@3.4.2 install node_modules/lmdb node-gyp-build-optional-packages
+708 info run msgpackr-extract@3.0.4 install node_modules/msgpackr-extract node-gyp-build-optional-packages
+709 info run lmdb@3.4.2 install { code: 0, signal: null }
+710 info run msgpackr-extract@3.0.4 install { code: 0, signal: null }
+711 info run esbuild@0.28.1 postinstall node_modules/esbuild node install.js
+712 info run esbuild@0.28.1 postinstall { code: 1, signal: null }
+713 warn cleanup Failed to remove some directories [
+713 warn cleanup   [
+713 warn cleanup     'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@modelcontextprotocol\\sdk',
+713 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\@modelcontextprotocol\sdk\node_modules\hono\dist\cjs'] {
+713 warn cleanup       errno: -4048,
+713 warn cleanup       code: 'EPERM',
+713 warn cleanup       syscall: 'rmdir',
+713 warn cleanup       path: 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@modelcontextprotocol\\sdk\\node_modules\\hono\\dist\\cjs'
+713 warn cleanup     }
+713 warn cleanup   ],
+713 warn cleanup   [
+713 warn cleanup     'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-jasmine\\node_modules\\jasmine-core',
+713 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\karma-jasmine\node_modules\jasmine-core\lib\jasmine-core'] {
+713 warn cleanup       errno: -4048,
+713 warn cleanup       code: 'EPERM',
+713 warn cleanup       syscall: 'rmdir',
+713 warn cleanup       path: 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\karma-jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core'
+713 warn cleanup     }
+713 warn cleanup   ]
+713 warn cleanup ]
+714 verbose stack Error: command failed
+714 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:22:22)
+714 verbose stack     at spawnWithShell (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+714 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+714 verbose stack     at runScriptPkg (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+714 verbose stack     at runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+714 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:332:17
+714 verbose stack     at run (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+714 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9
+714 verbose stack     at new Promise (<anonymous>)
+714 verbose stack     at callLimit (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:35:69)
+715 verbose pkgid esbuild@0.28.1
+716 error code 1
+717 error path C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\esbuild
+718 error command failed
+719 error command C:\Windows\system32\cmd.exe /d /s /c node install.js
+720 error node:internal/errors:985
+720 error   const err = new Error(message);
+720 error               ^
+720 error
+720 error Error: Command failed: C:\Program Files\nodejs\node.exe C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\esbuild\bin\esbuild --version
+720 error node:child_process:964
+720 error     throw err;
+720 error     ^
+720 error 
+720 error <ref *1> Error: spawnSync C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\@esbuild\win32-x64\esbuild.exe EFTYPE
+720 error     at Object.spawnSync (node:internal/child_process:1120:20)
+720 error     at spawnSync (node:child_process:911:24)
+720 error     at Object.execFileSync (node:child_process:954:15)
+720 error     at Object.<anonymous> (C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\esbuild\bin\esbuild:222:28)
+720 error     at Module._compile (node:internal/modules/cjs/loader:1761:14)
+720 error     at Object..js (node:internal/modules/cjs/loader:1893:10)
+720 error     at Module.load (node:internal/modules/cjs/loader:1481:32)
+720 error     at Module._load (node:internal/modules/cjs/loader:1300:12)
+720 error     at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+720 error     at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) {
+720 error   errno: -4028,
+720 error   code: 'EFTYPE',
+720 error   syscall: 'spawnSync C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@esbuild\\win32-x64\\esbuild.exe',
+720 error   path: 'C:\\Users\\EL10_gazy\\Documents\\Codex\\2026-09-28\\build-a-small-application-for-tracking\\src\\work-items-ui\\node_modules\\@esbuild\\win32-x64\\esbuild.exe',
+720 error   spawnargs: [ '--version' ],
+720 error   error: [Circular *1],
+720 error   status: null,
+720 error   signal: null,
+720 error   output: null,
+720 error   pid: 0,
+720 error   stdout: undefined,
+720 error   stderr: undefined
+720 error }
+720 error 
+720 error Node.js v24.11.1
+720 error
+720 error     at genericNodeError (node:internal/errors:985:15)
+720 error     at wrappedFn (node:internal/errors:539:14)
+720 error     at checkExecSyncError (node:child_process:925:11)
+720 error     at Object.execFileSync (node:child_process:961:15)
+720 error     at validateBinaryVersion (C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\esbuild\install.js:103:28)
+720 error     at C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui\node_modules\esbuild\install.js:296:5 {
+720 error   status: 1,
+720 error   signal: null,
+720 error   output: [
+720 error     null,
+720 error     Buffer(0) [Uint8Array] [],
+720 error     Buffer(1532) [Uint8Array] [
+720 error       110, 111, 100, 101,  58,  99, 104, 105, 108, 100,  95, 112,
+720 error       114, 111,  99, 101, 115, 115,  58,  57,  54,  52,  13,  10,
+720 error        32,  32,  32,  32, 116, 104, 114, 111, 119,  32, 101, 114,
+720 error       114,  59,  13,  10,  32,  32,  32,  32,  94,  13,  10,  13,
+720 error        10,  60, 114, 101, 102,  32,  42,  49,  62,  32,  69, 114,
+720 error       114, 111, 114,  58,  32, 115, 112,  97, 119, 110,  83, 121,
+720 error       110,  99,  32,  67,  58,  92,  85, 115, 101, 114, 115,  92,
+720 error        69,  76,  49,  48,  95, 103,  97, 122, 121,  92,  68, 111,
+720 error        99, 117, 109, 101,
+720 error       ... 1432 more items
+720 error     ]
+720 error   ],
+720 error   pid: 19420,
+720 error   stdout: Buffer(0) [Uint8Array] [],
+720 error   stderr: Buffer(1532) [Uint8Array] [
+720 error     110, 111, 100, 101,  58,  99, 104, 105, 108, 100,  95, 112,
+720 error     114, 111,  99, 101, 115, 115,  58,  57,  54,  52,  13,  10,
+720 error      32,  32,  32,  32, 116, 104, 114, 111, 119,  32, 101, 114,
+720 error     114,  59,  13,  10,  32,  32,  32,  32,  94,  13,  10,  13,
+720 error      10,  60, 114, 101, 102,  32,  42,  49,  62,  32,  69, 114,
+720 error     114, 111, 114,  58,  32, 115, 112,  97, 119, 110,  83, 121,
+720 error     110,  99,  32,  67,  58,  92,  85, 115, 101, 114, 115,  92,
+720 error      69,  76,  49,  48,  95, 103,  97, 122, 121,  92,  68, 111,
+720 error      99, 117, 109, 101,
+720 error     ... 1432 more items
+720 error   ]
+720 error }
+720 error
+720 error Node.js v24.11.1
+721 silly unfinished npm timer reify 1790580695102
+722 silly unfinished npm timer reify:build 1790580720516
+723 silly unfinished npm timer build 1790580720517
+724 silly unfinished npm timer build:deps 1790580720517
+725 silly unfinished npm timer build:run:postinstall 1790580720996
+726 silly unfinished npm timer build:run:postinstall:node_modules/esbuild 1790580720996
+727 verbose cwd C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\src\work-items-ui
+728 verbose os Windows_NT 10.0.19045
+729 verbose node v24.11.1
+730 verbose npm  v11.6.2
+731 verbose exit 1
+732 verbose code 1
+733 error A complete log of this run can be found in: C:\Users\EL10_gazy\Documents\Codex\2026-09-28\build-a-small-application-for-tracking\work\npm-cache\_logs\2026-09-28T07_31_33_316Z-debug-0.log
